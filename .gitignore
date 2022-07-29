@@ -1,3 +1,7 @@
 *.Rproj
 .Rhistory
 .Rproj.user/
+
+/.quarto/
+
+.DS_Store

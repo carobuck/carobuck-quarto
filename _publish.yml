@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: aaa2d997-f22e-4320-ae9b-43fa98be5a57
+      url: 'https://papaya-taffy-e12d71.netlify.app'

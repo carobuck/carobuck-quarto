@@ -1,0 +1,8 @@
+---
+title: "rstudio::conf(2022) Recap"
+date: '2022-07-29'
+---
+
+Recap of my experience at my first (and last*) rstudio::conf(2022)
+
+add footnote last is b/c Posit

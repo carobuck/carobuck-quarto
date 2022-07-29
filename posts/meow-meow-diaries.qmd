@@ -1,0 +1,17 @@
+---
+title: "meow-meow-diaries"
+description: |
+  Me and Meows.
+author:
+  - name: Caro Buck
+    url: https://example.com/norajones
+date: 2022-03-15
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+I've decided I need a new side project, so I've decided to log my interactions with Meow Meow. Follow along for daily updates [here](https://github.com/carobuck/meow-meow-diaries/blob/main/meow_diary_notes.md), and stay tuned for more to come. 
+

@@ -1,0 +1,26 @@
+---
+title: "moms-day-2020"
+description: |
+  A data-driven celebration of my mother.
+author:
+  - name: Caro Buck
+    url: https://example.com/norajones
+date: 2022-01-10
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+A couple weeks ago, I got a note from my mother. The card was gray, with floral designs on it; I recognized it immediately, because I'd made these cards for her; it was (and probably will be for a long time to come) one of my favorite gifts I've ever given. 
+
+For Mother's Day 2020, I decided to poll my mother's friends and family to get a glimpse of how they perceived her (via when they met, how they knew each other and personality traits my mother expressed in their relationship). After collecting all the data, I came up with a floral design that celebrates the unique person person my mother is, and shows how cherished and important she is to many. 
+
+My personal favorite part of this project was seeing how others described my mother- some similar to my own opinions and others totally different! 
+
+![Floral inspired visualization with green, red, purple and yellow flowers on a gray background](imgs/ported_imgs/Moms_Day_2020.jpg)
+
+![The visualization's corresponding legend](imgs/ported_imgs/Moms_Day_Legend.jpg)
+
+
