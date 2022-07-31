@@ -5,19 +5,21 @@ website:
   title: "Data Parties"
   subtitle: "(and other things I won't shut up about)"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    right:
+      - href: about.qmd
+        text: about
       - href: talks.qmd
-        text: Talks
+        text: talks
       - href: blog.qmd
-        text: Musings
+        text: musings
+      - href: experimental.qmd
+        text: experimental
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: 
+      - litera
+      - styles.scss
     toc: true
 
 

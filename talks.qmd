@@ -2,3 +2,16 @@
 title: "talks"
 ---
 
+## RStudio::conf(2022)
+**The Benefit of Talking to the "Non-Datas"**
+
+Slides available [here](https://rconf-2022-caro-buck.netlify.app/#/section); Github repo that powers the slides available [here](https://github.com/carobuck/rconf-talk-2022-slides).
+
+Video recording coming soon!
+
+## I-COM Summit Experience 
+**Johnson & Johnson + Nicorette Hackathon Finalist Presentation**
+
+*TODO: publish slides online to save?? convert to quarto preso on github?*
+
+Video recording coming soon!
