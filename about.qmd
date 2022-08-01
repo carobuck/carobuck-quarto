@@ -10,9 +10,9 @@ about:
     - icon: github
       text: GitHub
       href: "https://github.com/carobuck"
-    - icon: email
-      text: Email
-      href: "mailto:cbuck717@gmail.com"
+    #- icon: email
+    #  text: Email
+    #  href: "mailto:cbuck717@gmail.com"
     - text: LinkedIn
       href: "https://www.linkedin.com/in/caro-buck/"
 ---
