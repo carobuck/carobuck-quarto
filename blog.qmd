@@ -3,5 +3,6 @@ title: "blog"
 listing: 
   contents: posts
   type: default
+  sort: date desc
 ---
 

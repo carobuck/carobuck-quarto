@@ -1,22 +1,23 @@
 ---
-title: ""
-image: "caro_bainbridge.jpg"
-links:
-  - label: GitHub
-    url: "https://github.com/carobuck"
-  - label: Email
-    url: "mailto:cbuck717@gmail.com"
-  - label: LinkedIn
-    url: "https://www.linkedin.com/in/caro-buck/"
-  - label: Twitter
-    url: "https://twitter.com/caroissilly"
-output:
-  postcards::trestles
+title: "Caro Buck"
+about:
+  template: trestles
+  image: "posts/imgs/ported_imgs/caro-headshot.jpg"
+  links:
+    - icon: twitter
+      text: Twitter
+      href: "https://twitter.com/caroissilly"
+    - icon: github
+      text: GitHub
+      href: "https://github.com/carobuck"
+    - icon: email
+      text: Email
+      href: "mailto:cbuck717@gmail.com"
+    - text: LinkedIn
+      href: "https://www.linkedin.com/in/caro-buck/"
 ---
- 
-## Hello!
 
-I'm Caro, short for Caroline! 
+Howdy, I'm Caro, short for Caroline! 
 
 I'm a curious and creative human, with a passion for data of all sorts. I love wrangling unconventional data, or using a visualization to build understanding and promote data literacy.
 
@@ -28,13 +29,11 @@ Feel free to give a holler!
 
 ## Experience
 
-**Data Scientist** | Wunderman Thompson | June 2018 - Present
+**Data Scientist** | *Wunderman Thompson* | June 2018 - Present
 
 **Private Math Tutor** | August 2020 - Present
 
 ## Education
 
-**Seatte Pacific University** | Seattle, WA
-
-B.S. Applied Mathematics  | 2014 - 2018
+**B.S. Applied Mathematics + CS Minor** | *Seatte Pacific University* | 2014 - 2018
 
