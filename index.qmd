@@ -2,7 +2,28 @@
 title: "carobuck-quarto"
 ---
 
-This is a Quarto website.
+
+lacey
+
+
+UPDATE THIS PAGE, THEN PUSH LIVE TO CAROBUCK.COM.
+
+for reading: add sidebar/footnote poll about reading in car vs. sleeping in car. (maybe show a live tracking viz of who says what?) (could also prob make table better/more accessible?)
+
+
+THEN TWEET TOM FOR BACKGROUND IMAGE --> or maybe just add as sidebar image for time being? https://github.com/sta210-s22/website/blob/main/_quarto.yml
+still ask tom tho if it is possible (not seeing any examples in quarto docs)
+
+THEN FINISH CONF RECAP POST
+THEN DO THE MAKINGS OF A CONF TALK POST (W/ ALL STUFF FROM BEGINNING + COACHING)
+
+THEN DO EXPERIMENTAL PROJECT OF SOME KIND...(predictive model w/ colors? use vetiver? or some other idea in keep. maybe predict how well I'll like dancing to your music, depending on how similar it is to mine?? or make a geo worldle?)
+
+
+
+Peruse this for some interesting fodder: https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/
+
+## This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 

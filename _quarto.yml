@@ -12,6 +12,8 @@ website:
         text: talks
       - href: blog.qmd
         text: musings
+      - href: reading.qmd
+        text: reading
       - href: experimental.qmd
         text: experimental
 

@@ -13,7 +13,8 @@ about:
     #- icon: email
     #  text: Email
     #  href: "mailto:cbuck717@gmail.com"
-    - text: LinkedIn
+    - icon: linkedin
+      text: LinkedIn
       href: "https://www.linkedin.com/in/caro-buck/"
 ---
 
