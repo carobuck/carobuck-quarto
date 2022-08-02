@@ -1,0 +1,11 @@
+---
+title: "random"
+---
+
+
+Random stuff I want to put somewhere, but not sure where. maybe like easter egg gems??
+
+::: {.column-margin}
+
+!["Whole ass or nothing" when it comes to a party](posts/imgs/trelawney.gif){fig-alt="A gif of a girl with long curly hair dressed up as Professor Trelawny, with lots of shawls and a slightly crazed look in my eyes."}
+:::
