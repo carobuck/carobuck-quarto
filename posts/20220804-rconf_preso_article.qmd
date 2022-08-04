@@ -1,0 +1,332 @@
+---
+title: 'The Benefit of Talking to the "Non-Datas"'
+date: '2022-08-04'
+author: "Caro Buck"
+format: html
+#resources: # do I need this?? tbd what to do w/ this
+---
+
+![](imgs/rconf_preso/Title.png){fig-alt="Title slide that says 'the benefits of talking to the non-datas'"}
+
+:::{.notes}
+Hello + welcome everyone! I'm Caro (short for Caroline)
+I'm a DS at a marketing agency working on a creative tech team (so I work on a more creative team that makes cool data toys and goes down a lot of weird rabbit holes)
+I'm here to talk about talking to people who think they're not data ppl
+:::
+
+
+![](imgs/rconf_preso/Armchair.png){fig-alt="A hand-drawn navy and gold arm chair on a white background with confetti in the corners."}
+
+::: {.notes}
+So, in 2020, we all kinda became arm chair experts...
+:::
+
+## {background-image="imgs/Armchair_COVID.png" fig-alt="A hand-drawn navy and gold arm chair with a covid virus drawn on top, on a white background with confetti in the corners."}
+
+::: {.notes}
+if you were thinking COVID, then you and I are thinking the same thing.
+data've always had/currently have a large impact in our lives, but it's not always visible.
+suddenly, with covid pandemic, data had a very visceral, very real, very obvious impact in our lives. dictated what we should/shouldn't do, who we could see, where we could go. understanding numbers and charts suddenly became crucial to our daily lives and a lot of new jargon was thrown into the vernacular- e.g. "flatten the curve" "mask up" etc. 
+:::
+
+## {background-image="imgs/Background.png" fig-alt="A plain white background with confetti in the corners."}
+
+::: {style="font-size: 1.8em; font-style:bold;"}
+
+
+"They think that they're not doing anything interesting because they
+assume that everyone knows as much as they do...
+<br />
+As you become more of an expert, your quality bar gets higher and higher and you
+forget that everything you know is not known by everyone."
+
+:::
+
+[-Aaron Francis]{style="font-size: xxx-large;"}
+
+::: {.footer}
+[Aaron Francis on publishing your
+work](https://github.com/readme/guides/publishing-your-work)
+:::
+
+::: {.notes}
+to set us up for this talk, I want to share this quote as a little inspo content.
+we're all "masters" of something (master being a term that exists on a spectrum and can be loosely defined)
+sometimes we forget just how much we know, or we might be "masters" of
+different things, and it's worthwhile to remember our blind spots and share what we do know. 
+
+everyone has something to share- don't sit out there and think u have nothing
+:::
+
+## {background-image="imgs/Think_Data_Are.png" fig-alt="A white background slide with confetti in the corners, with hand-drawn table of fake data, binary numbers, pie chart and line chart to illustrate different forms data can take on."}
+
+:::{.fragment}
+![](imgs/emoji_think.png){.absolute bottom="17%" right=725 width="275" height="275" fig-alt="Thinking face emoji"}
+:::
+:::{.fragment}
+![](imgs/emoji_omg.png){.absolute bottom="17%" right=400 width="275" height="275" fig-alt="OMG face emoji"}
+:::
+:::{.fragment}
+![](imgs/emoji_nerd.png){.absolute bottom="17%" right=75 width="275" height="275" fig-alt="Nerd face emoji"}
+:::
+
+:::{.notes}
+so let's hop into it. Ppl have lots of (mis)conceptions about what data are- maybe tables, numbers, lots of 1/0s, charts, etc.
+CLICK: Or maybe they just think it's something big, and needs a lot of thinking
+CLICK: or maybe that it's something scary, something to be afraid of
+CLICK: or maybe, it's something just for nerds and is "too hard" to understand -this one makes me sad/angry :(
+:::
+
+## {background-image="imgs/Data_Actually_Are_1.png" fig-alt="White background slide with confetti in corners and 'Yes, and' handwritten on it"}
+
+:::{.notes}
+Data are all of those things! And so much more! like in improv, it's a "yes, and" situation.
+meaning you take what your partner offers, and add something to the story, you may shape and refine and take in a new direction, but you meet the person where they're coming from/currently at
+:::
+
+## {background-image="imgs/Data_Actually_Are_2.png" fig-alt="White background slide with confetti in corners and 'Yes, and: Creative' handwritten on it"}
+
+:::{.notes}
+data are creative! so much more than black/white (lots gray in between). data not always "hard n fast" or "right"
+:::
+
+## {background-image="imgs/Data_Actually_Are_3.png" fig-alt="White background slide with confetti in corners and 'Yes, and: Creative, Scientific' handwritten on it"}
+
+:::{.notes}
+data are scientific, while very creative, it can also be rigorous way to study world around us, to collect info (that's basically what individual data bits are!)
+:::
+
+## {background-image="imgs/Data_Actually_Are_4.png" fig-alt="White background slide with confetti in corners and 'Yes, and: Creative, Scientific, Everywhere' handwritten on it"}
+
+:::{.notes}
+EVERYWHERE! the more you look, the more you see! this makes it really fun to talk about data with other people- just ask my friends n fam haha
+:::
+
+## {background-image="imgs/invite.png" fig-alt="White background slide with confetti in corners and handwritten party invitiation that says 'Who: Everyone!; What: Talk about data!; Where: Wherever!; When: Whenever!; Why: It's cool! (& Useful); How: Excitement & Curiosity'"}
+
+![](imgs/emoji_party.png){.absolute top="45%" right="5%" width="350" height="350" fig-alt="Party face emoji"}
+
+::: {.notes}
+we're all at the biggest data party there is, but I'm formally inviting you to another. 
+In this one, it's about talking about data, especially with ppl who think they aren't "data people"
+Like a good party invite, it's a lot more fun if you've got all the
+details down (unless surprise party, but someone should have the details then) 
+:::
+
+## {background-image="imgs/Who_Slide_1.png" fig-alt="White background slide with confetti in corners and handwritten arrow with Novice on left, Expert on right"}
+
+::: {.notes}
+let's clarify real quick who is a "data" person
+you may have noticed the "" around non data. that's intentional 
+
+usually self-designated (I think anyone/everyone can be a data person, but on a spectrum; we aren't/don't
+have to be at same level) 
+we also can be experts in some things, and novices in others
+:::
+
+## {background-image="imgs/Who_Slide_2.png" fig-alt="White background slide with confetti in corners and handwritten arrow with Novice on left, Expert on right. Arrow with blue asterisk points closer to novice"}
+
+:::{.notes}
+you might be here on spectrum for something
+:::
+
+## {background-image="imgs/Who_Slide_3.png" fig-alt="White background slide with confetti in corners and handwritten arrow with Novice on left, Expert on right. Arrow with blue asterisk points closer to novice. Sencond arrow points closer to expert"}
+
+:::{.notes}
+or maybe closer to expert
+or any number of places in between
+the place on the spectrum doesn't matter as much as we know that we all exist somewhere on it
+:::
+
+
+## {background-image="imgs/Who_Slide_4.png" fig-alt="White background slide with confetti in corners and several handwritten, swirling arrows from Novice on left to Expert on right."}
+
+:::{.notes}
+"worth noting that" line from novice to expert may not be at all
+straight, and that it's not a single line. It probably more looks like a
+swirling, multi-branched tree/plant root ("choose your own adventure" style) 
+because we all might be "experts" in diff things, it's worthwhile sharing what we know! remember, quote from before about common blindspots!
+
+so when you're looking for people to talk to, look around, it's probably could be anyone...perhaps if you work in an org, talk with people not on your team, or people that you may work w/ obliquely
+:::
+
+## {background-image="imgs/XY_Axis_Slide.png" fig-alt="White background slide with confetti in corners and handwritten xy-axis chart. X axis goes from Less Technical on left to More Technical on right, Y axis goes from Personal on bottom to General on top."}
+
+::: {.notes}
+what to say depends on level of person/where they are on data spectrum 
+Like are we going full on theme party (maybe into the weeds on a ML model) or staying a bit more high level with some small talk (maybe get excited about an interesting data journalism article you saw float by on Twitter recently) 
+
+The "what" could be educational/entertaining/both ('pique the curiosity'). Depends on the rest of the party invite
+:::
+
+## {background-image="imgs/XY_Axis_Slide_Filled_In.png" fig-alt="White background slide with confetti in corners and handwritten xy-axis chart. X axis goes from Less Technical on left to More Technical on right, Y axis goes from Personal on bottom to General on top. Quadrants are filled in; upper left says Music Borders; Upper right says Gold Record Data Art; Lower left says Spotify Wrapped; Lower right says How Bad is you streaming music?"}
+
+:::{.absolute top="73%" left="15%"}
+[Spotify Wrapped](https://newsroom.spotify.com/2021-12-01/the-wait-is-over-your-spotify-2021-wrapped-is-here/){style="font-size: x-large;"}
+:::
+
+:::{.absolute top="35%" left="15%"}
+[Pudding's Music Borders](https://pudding.cool/2018/06/music-map/?date=202106){style="font-size: x-large;"}
+:::
+
+:::{.absolute top="35%" left="50%"}
+[Nadieh Bremer's Gold Record Data Art](https://www.visualcinnamon.com/portfolio/sony-music-data-art/){style="font-size: x-large;"}
+:::
+
+:::{.absolute top="73%" left="50%"}
+[Pudding's Judge My Spotify](https://pudding.cool/2021/10/judge-my-music/){style="font-size: x-large;"}
+:::
+
+:::{.notes}
+Let's take music as a category example and see how we could talk about each thing.
+START LOWER LEFT W/ SPOTIFY WRAP
+call out pudding, if haven't heard of it
+:::
+
+## {background-image="imgs/Where_When.png" fig-alt="White background with confetti in corners; yellow cocktail table drawn on left, and calendar of July on right"}
+
+::: {.notes}
+lol always and forever
+consider where people encounter data/viz
+Consider: Is this a last minute backyard hangout or a wedding planned
+months in advance? 
+The where/when and what might also inform the others.
+E.g. if you want/need to deep dive on something to bridge
+understanding/knowledge gap, it makes sense to set up time in advance to
+discuss, so the audience has some sense of what they are getting into.
+If you're casually bringing it up in a way to entertain/show another
+side of data (e.g. a new/unexpected place to find data, or a creative
+data use), the where/when might be over lunch, or a brief meeting in a
+hallway, etc
+:::
+
+## {background-image="imgs/Sci_Art.png" fig-alt="White background with confetti in corners, equation of Data=Science+Art handwritten on slide"}
+
+::: {.notes}
+like mentioned at beginning, data are a lot more than what we might think about.
+data are science, and art, AND ACCESSIBILITY TOOL. 
+:::
+
+## {background-image="imgs/Why_Blank.png" fig-alt="White background with confetti in corners"}
+
+:::{.fragment .fade-out .absolute top="25%" right="40%" width="500" height="800"}
+![](imgs/Penguin.png){fig-alt="hand drawn penguin"}
+:::
+
+::: {.column width="50%"}
+::: {.fragment .fade-in-then-semi-out .absolute top="10%" width="50%"}
+Penguins come in all shapes and sizes. Gentoo penguins tend to have the longest flipper length, on average, at **217.2 mm**, compared to Adelie (**190.0 mm**) and Chinstrap (**195.8 mm**) penguins.  
+:::
+
+::: {.fragment .fade-in-then-semi-out .absolute bottom="30%"}
+
+```{r, fig.alt="Table of penguin flipper measurements by species"}
+library(tidyverse)
+
+palmerpenguins::penguins %>%
+  group_by(species) %>%
+  summarise(across(starts_with('fli'), ~ scales::number(mean(.x, na.rm = TRUE),.1))) %>%
+  knitr::kable(caption='Penguin Measurements by Species')
+```
+:::
+:::
+
+::: {.column width="40%"}
+:::{.fragment}
+```{r}
+#| fig-align: "center"
+#| fig.alt: "Column chart of penguin flipper and bill measurements by species"
+#| fig.width: 10
+#| fig.height: 14
+palmerpenguins::penguins %>%
+  group_by(species) %>%
+  summarise(across(ends_with('mm'), ~ mean(.x, na.rm = TRUE))) %>%
+  pivot_longer(2:4) %>%
+  mutate(name=str_sub(name,1,-4)) %>%
+  ggplot(aes(x=value,y=species,fill=species,label=scales::number(value,.1,suffix=' mm'))) +
+  geom_col(position = 'dodge',color='black') +
+  geom_label(fill='white',hjust=-.1,size=5) +
+  facet_grid(name~.,scales = 'free_y') +
+  scale_fill_manual(values = c('#FFE330','#00D1D9','#015377')) +
+  theme_bw() +
+  scale_x_continuous(limits = c(0,300)) +
+  labs(title='Penguin Measurements by Species',
+       x='Length (mm)',y='') +
+  theme(legend.position = 'None',
+        strip.text.y = element_text(angle=0,size=20),
+        axis.text = element_text(size=18),
+        axis.text.x = element_text(size = 18),
+        axis.text.y = element_text(size=18),
+        title = element_text(face='bold',size=26))
+```
+:::
+:::
+
+::: {.notes}
+you could go out an count penguins all day, and maybe that's what you
+do. but that's not what I'm gonna do. I rely on others data collection to learn new stuff
+
+this is just one example of how data itself can be used as an accessibility
+tool. numbers themselves can be a way to summarise information, and if
+we show numbers/data in a particular way, it can make the info more (or
+less) clear and accessible to folks.
+
+learn not just about penguins, but also able to interpret current events in world (e.g. covid charts)
+:::
+
+## {background-image="imgs/How.png" fig-alt="White background with confetti in corners, and a hand drawn newsletter, headphones and book."}
+
+:::{.absolute top="80%" left="10%"}
+[Sign up for Washington Post's Newsletter](https://www.washingtonpost.com/newsletters/how-to-read-this-chart/){style="font-size: x-large;"}
+:::
+
+:::{.absolute top="80%" left="45%"}
+[Find a Podcast](https://towardsdatascience.com/5-data-science-podcasts-you-should-be-listening-to-72d8efd0b9ec){style="font-size: x-large;"}
+:::
+
+:::{.absolute top="80%" left="75%"}
+[Read Janelle Shane's Book](https://www.janelleshane.com/book-you-look-like-a-thing){style="font-size: x-large;"}
+:::
+
+
+::: {.notes}
+you might be wondering, how do I get started? maybe you're ready to go, maybe you want some more prep.
+here are some refs to check out for inspiration or other "what"s to talk about w/ ppl
+:::
+ 
+## {background-image="imgs/How2.png" fig-alt="White background with confetti in corners and hand drawn person standing in the middle with a text bubble that says 'data'."}
+
+::: {.notes}
+but my main advice? just go for it.
+just get started? may very likey feel awk, but just need to jump in and do it
+:::
+
+## {background-image="imgs/End_Story.png" fig-alt="White background with 8 colorful data portraits/badges that describe my coworkers, based on a legend."}
+
+::: {.notes}
+so, a story for why it's selfishly good to talk to "non datas"... 
+
+back near beg of covid, I came across GL's data portraits and wanted to do something similar for my team. 
+thought would be fun desk name tag for when we went back to office soon (spoiler, we never went back to office)
+but, fun to make and really fun to share w/ my team and guess who's who. fun to get to know each other in a way that wasn't strictly related to work, while working remotely. 
+word got around about these and creative lead "you're gonna share w/ the whole C team"
+me: "really?!?" so I did. 
+it was amazing to be able to share something very data driven, that was also very creative.
+(they didn't realize data could be so much more than
+reporting/analytics. and when others see the inspiration/possibilities,
+we can do cooler things with data!!)
+
+So, we, data people can selfishly do cooler things when others realize our powers and are willing to let data out of the box
+:::
+
+## {background-image="imgs/Ty_And_Question.png" fig-alt="White background with confetti in corners; 'Thank you' and 'Questions?' written on the slide."}
+
+:::{.footer}
+Want to talk more? Holler @ [carobuck.com](https://carobuck.com/)
+:::
+
+::: {.notes}
+Thanks for coming to my party! Go do your own parties now! 
+:::
+
+

@@ -1,0 +1,10 @@
+---
+title: "Preparing to speak at rstudio::conf"
+format: html
+---
+
+## THINGS I LEARNED
+
+* making slides in quarto is pretty easy
+* doing custom hand drawn backgrounds makes things a liiiittle bit harder. not totally unachievable, but harder because depends on aspect ratio. converting slides to html/article harder since background images don't really work (also looks kinda dumb)
+
