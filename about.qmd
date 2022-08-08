@@ -30,9 +30,11 @@ Feel free to give a holler!
 
 ## Experience
 
-**Data Scientist** | *Wunderman Thompson* | June 2018 - Present
+**Data Scientist** | *Global Creative Data Team, Wunderman Thompson* | June 2018 - Present
 
-**Private Math Tutor** | August 2020 - Present
+**Private Math Tutor** 
+
+R | Python | Quarto | Flask | GCP
 
 ## Education
 

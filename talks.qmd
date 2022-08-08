@@ -1,5 +1,5 @@
 ---
-title: "talks"
+title: ""
 toc: false
 ---
 
@@ -13,6 +13,6 @@ Video recording coming soon!
 ## I-COM Summit Experience 
 **Johnson & Johnson + Nicorette Hackathon Finalist Presentation**
 
-*TODO: publish slides online to save?? convert to quarto preso on github?*
+Slides available [here](https://github.com/carobuck/icom-hackathon-2021)
 
 Video recording coming soon!

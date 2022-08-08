@@ -1,6 +1,7 @@
 ---
 title: "Preparing to speak at rstudio::conf"
 format: html
+draft: true
 ---
 
 ## THINGS I LEARNED
