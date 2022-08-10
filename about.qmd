@@ -1,27 +1,20 @@
 ---
-title: "Caro Buck"
-about:
-  template: trestles
-  image: "posts/imgs/ported_imgs/caro-headshot.jpg"
-  links:
-    - icon: twitter
-      text: Twitter
-      href: "https://twitter.com/caroissilly"
-    - icon: github
-      text: GitHub
-      href: "https://github.com/carobuck"
-    #- icon: email
-    #  text: Email
-    #  href: "mailto:cbuck717@gmail.com"
-    - icon: linkedin
-      text: LinkedIn
-      href: "https://www.linkedin.com/in/caro-buck/"
+title: ""
 ---
 ::: {.column-screen}
 ![](posts/imgs/banner.png){fig-alt="a hand-drawn banner of confetti"}
+:::
 
-:::{.hero-heading}
-Howdy, I'm Caro, short for Caroline! 
+::: {.column-screen-inset}
+
+::: {layout="[40,60]"}
+
+::: {.div}
+![](posts/imgs/ported_imgs/caro-headshot.jpg){fig-alt="a hand-drawn banner of confetti"}
+:::
+::: {.div}
+
+### Howdy, I'm Caro (short for Caroline)! 
 
 I'm a curious and creative human, with a passion for data of all sorts. I love wrangling unconventional data, or using a visualization to build understanding and promote data literacy.
 
@@ -29,9 +22,7 @@ I have worked on a wide variety of client projects, from AI-generated graffiti a
 
 In my spare time, you’ll probably find me outside: either biking fast, wandering the neighborhood or playing Spikeball.
 
-Feel free to give a holler!
-
-## Experience
+### Experience
 
 **Data Scientist** | *Global Creative Data Team, Wunderman Thompson* | June 2018 - Present
 
@@ -39,14 +30,22 @@ Feel free to give a holler!
 
 R | Python | Quarto | Flask | GCP
 
-## Education
+### Education
 
 **B.S. Applied Mathematics + CS Minor** | *Seatte Pacific University* | 2014 - 2018
 
+</br>
+*Want to talk more? Give a holler!*
+
+<a href="https://www.linkedin.com/in/caro-buck/" class="btn btn-outline-info"><i class="bi bi-linkedin"></i> LinkedIn</a>
+<a href="https://github.com/carobuck" class="btn btn-outline-info"><i class="bi bi-github"></i> GitHub</a>
+<a href="https://twitter.com/caroissilly" class="btn btn-outline-info"><i class="bi bi-twitter"></i> Twitter</a>
+
+:::
+:::
+*Wondering why a data party? If you know me, you know the keys to my heart are themed parties, good group photos and data of all shapes, sizes and flavors.*
 :::
 
-If you know me, you know the keys to my heart are good group photos, themed parties and data of all shapes, sizes and flavors. 
-
-
+::: {.column-screen}
 ![](posts/imgs/banner.png){fig-alt="a hand-drawn banner of confetti"}
 :::

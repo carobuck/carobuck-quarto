@@ -1,19 +1,21 @@
 ---
 title: ""
 toc: false
-    
 ---
+::: {.column-screen}
+![](posts/imgs/banner.png){fig-alt="a hand-drawn banner of confetti"}
+:::
 
+::: {.column-page-inset}
 # da$\cdot$ta par$\cdot$ty
 ##### *noun* (pl: *data parties*) 
 ### A gathering, formal or informal, to talk all things data. Can happen wherever, whenever and everyone's invited!
 
 <br/>
 
-If you know me, you know the keys to my heart are good group photos, themed parties and data of all shapes, sizes and flavors. 
-
 So, what are we waiting for?! Let's get going and have some fun!  ![](posts/imgs/rconf_preso/emoji_party.png){width="30" height="30" fig-alt="Party face emoji"}
 
+:::
 ```{=html}
 <!-- none of this works, not sure why/if possible to get a background image. (stuff in yml doesn't work either... ) 
 background-image: url("img1.png")
