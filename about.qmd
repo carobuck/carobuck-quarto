@@ -17,7 +17,10 @@ about:
       text: LinkedIn
       href: "https://www.linkedin.com/in/caro-buck/"
 ---
+::: {.column-screen}
+![](posts/imgs/banner.png){fig-alt="a hand-drawn banner of confetti"}
 
+:::{.hero-heading}
 Howdy, I'm Caro, short for Caroline! 
 
 I'm a curious and creative human, with a passion for data of all sorts. I love wrangling unconventional data, or using a visualization to build understanding and promote data literacy.
@@ -40,3 +43,10 @@ R | Python | Quarto | Flask | GCP
 
 **B.S. Applied Mathematics + CS Minor** | *Seatte Pacific University* | 2014 - 2018
 
+:::
+
+If you know me, you know the keys to my heart are good group photos, themed parties and data of all shapes, sizes and flavors. 
+
+
+![](posts/imgs/banner.png){fig-alt="a hand-drawn banner of confetti"}
+:::
