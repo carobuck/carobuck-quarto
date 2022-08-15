@@ -6,3 +6,6 @@ listing:
   sort: date desc
 ---
 
+::: {.column-screen}
+![](posts/imgs/banner.png){fig-alt="a hand-drawn banner of confetti"}
+:::

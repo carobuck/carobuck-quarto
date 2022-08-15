@@ -1,7 +1,10 @@
 ---
-title: "experimental"
+title: ""
 toc: false
 ---
+::: {.column-screen}
+![](posts/imgs/banner.png){fig-alt="a hand-drawn banner of confetti"}
+:::
 
-### Under construction dumping ground for my random ideas
+### An experimental dumping ground for my random ideas
 Stay tuned for more to come!

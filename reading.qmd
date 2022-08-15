@@ -1,6 +1,14 @@
 ---
-title: "Books I've Read"
+title: ""
+toc: false
 ---
+
+::: {.column-screen}
+![](posts/imgs/banner.png){fig-alt="a hand-drawn banner of confetti"}
+:::
+
+::: {.column-page-inset}
+# Books I've Read
 
 I've always liked to read (growing up, I took a book everywhere, much to my mother's chagrin when she'd have to sit in silence driving me around whilst I read), but now I keep proper track of what I'm reading. 
 
@@ -18,3 +26,4 @@ books_read |>
   dplyr::select(c(`Date Completed`,Title,Author)) |>
   knitr::kable(caption='Note: Books completed in 2019 did not have great tracking, so date is approximate')
 ```
+:::
