@@ -4,62 +4,50 @@ date: '2022-08-04'
 author: "Caro Buck"
 format: html
 draft: true
-#resources: # do I need this?? tbd what to do w/ this
+toc: true
 ---
 
-![](imgs/rconf_preso/Title.png){fig-alt="Title slide that says 'the benefits of talking to the non-datas'"}
+Why is it important to talk to people about data? Great question, I'd love to tell you.
+![](imgs/banner.png){fig-alt="a hand-drawn banner of confetti"}
 
-:::{.notes}
-Hello + welcome everyone! I'm Caro (short for Caroline)
-I'm a DS at a marketing agency working on a creative tech team (so I work on a more creative team that makes cool data toys and goes down a lot of weird rabbit holes)
-I'm here to talk about talking to people who think they're not data ppl
-:::
+#### Hello + Welcome to the party!
 
+Quick introduction for context: I'm Caro (short for Caroline) and I'm a data scientist at a marketing agency working on a creative tech team. Meaning that I don't do much traditional marketing analytics, moreover my team makes cool data toys^[We make web apps, prototypes and more, and sometimes use tech and data in not-quite-conventional ways. ] and goes down a lot of weird rabbit holes. 
 
-![](imgs/rconf_preso/Armchair.png){fig-alt="A hand-drawn navy and gold arm chair on a white background with confetti in the corners."}
+This article is about talking to people who think they're not data people. It's an invitation to a new kind of party- a data party! 
 
-::: {.notes}
+Like any good party, we'll give some context for why we're doing this, then we'll cover the who, where, when, why, what and how of the party. 
+
+Like a good party invite, it's a lot more fun if you've got all the
+details down (unless surprise party, but someone should have the details then) 
+
+***
+
+::: {layout="[55,45]"}
+::: {.div}
 So, in 2020, we all kinda became arm chair experts...
+
+If you were thinking COVID-19, then we are thinking the same thing. Data have always had (and still currently do have) a large impact in our lives, but the various impacts over time have not always been visible. Thanks to a global pandemic, data suddenlyt moved to the forefront and had a very visceral, very real, very obvious impact in our lives. dictated what we should/shouldn't do, who we could see, where we could go. understanding numbers and charts suddenly became crucial to our daily lives and a lot of new jargon was thrown into the vernacular- e.g. "flatten the curve" "mask up" etc. 
+:::
+:::{.div}
+![](imgs/rconf_preso_article/Armchair_COVID.png){fig-alt="A hand-drawn navy and gold arm chair with a covid virus drawn on top." fig-height=350}
+:::
 :::
 
-## {background-image="imgs/Armchair_COVID.png" fig-alt="A hand-drawn navy and gold arm chair with a covid virus drawn on top, on a white background with confetti in the corners."}
+#### Data (Mis)conceptions
 
-::: {.notes}
-if you were thinking COVID, then you and I are thinking the same thing.
-data've always had/currently have a large impact in our lives, but it's not always visible.
-suddenly, with covid pandemic, data had a very visceral, very real, very obvious impact in our lives. dictated what we should/shouldn't do, who we could see, where we could go. understanding numbers and charts suddenly became crucial to our daily lives and a lot of new jargon was thrown into the vernacular- e.g. "flatten the curve" "mask up" etc. 
+::: {layout="[55,45]"}
+::: {.div}
+so let's hop into it. Ppl have lots of (mis)conceptions about what data are- maybe tables, numbers, lots of 1/0s, charts, etc.
+CLICK: Or maybe they just think it's something big, and needs a lot of thinking
+CLICK: or maybe that it's something scary, something to be afraid of
+CLICK: or maybe, it's something just for nerds and is "too hard" to understand -this one makes me sad/angry :(
+:::
+::: {.div}
+TODO insert pic here about what ppl think data are
+:::
 :::
 
-## {background-image="imgs/Background.png" fig-alt="A plain white background with confetti in the corners."}
-
-::: {style="font-size: 1.8em; font-style:bold;"}
-
-
-"They think that they're not doing anything interesting because they
-assume that everyone knows as much as they do...
-<br />
-As you become more of an expert, your quality bar gets higher and higher and you
-forget that everything you know is not known by everyone."
-
-:::
-
-[-Aaron Francis]{style="font-size: xxx-large;"}
-
-::: {.footer}
-[Aaron Francis on publishing your
-work](https://github.com/readme/guides/publishing-your-work)
-:::
-
-::: {.notes}
-to set us up for this talk, I want to share this quote as a little inspo content.
-we're all "masters" of something (master being a term that exists on a spectrum and can be loosely defined)
-sometimes we forget just how much we know, or we might be "masters" of
-different things, and it's worthwhile to remember our blind spots and share what we do know. 
-
-everyone has something to share- don't sit out there and think u have nothing
-:::
-
-## {background-image="imgs/Think_Data_Are.png" fig-alt="A white background slide with confetti in the corners, with hand-drawn table of fake data, binary numbers, pie chart and line chart to illustrate different forms data can take on."}
 
 :::{.fragment}
 ![](imgs/emoji_think.png){.absolute bottom="17%" right=725 width="275" height="275" fig-alt="Thinking face emoji"}
@@ -71,78 +59,33 @@ everyone has something to share- don't sit out there and think u have nothing
 ![](imgs/emoji_nerd.png){.absolute bottom="17%" right=75 width="275" height="275" fig-alt="Nerd face emoji"}
 :::
 
-:::{.notes}
-so let's hop into it. Ppl have lots of (mis)conceptions about what data are- maybe tables, numbers, lots of 1/0s, charts, etc.
-CLICK: Or maybe they just think it's something big, and needs a lot of thinking
-CLICK: or maybe that it's something scary, something to be afraid of
-CLICK: or maybe, it's something just for nerds and is "too hard" to understand -this one makes me sad/angry :(
-:::
+***
+So what are data? Spoiler- all of those things! And so much more! Like in improv, this is a "yes, and" situation. meaning you take what your partner offers, and add something to the story, you may shape and refine and take in a new direction, but you meet the person where they're coming from/currently at
 
-## {background-image="imgs/Data_Actually_Are_1.png" fig-alt="White background slide with confetti in corners and 'Yes, and' handwritten on it"}
+In addition to the above, data are:
 
-:::{.notes}
-Data are all of those things! And so much more! like in improv, it's a "yes, and" situation.
-meaning you take what your partner offers, and add something to the story, you may shape and refine and take in a new direction, but you meet the person where they're coming from/currently at
-:::
+* Creative! so much more than black/white (lots gray in between). data not always "hard n fast" or "right"
+* Scientific, while very creative, it can also be rigorous way to study world around us, to collect info (that's basically what individual data bits are!)
+* EVERYWHERE! the more you look, the more you see! this makes it really fun to talk about data with other people- just ask my friends n fam haha
 
-## {background-image="imgs/Data_Actually_Are_2.png" fig-alt="White background slide with confetti in corners and 'Yes, and: Creative' handwritten on it"}
+Now that we've cleared that up, let's hop into this invitation- don't forget to RSVP!
 
-:::{.notes}
-data are creative! so much more than black/white (lots gray in between). data not always "hard n fast" or "right"
-:::
+***
+#### Who
 
-## {background-image="imgs/Data_Actually_Are_3.png" fig-alt="White background slide with confetti in corners and 'Yes, and: Creative, Scientific' handwritten on it"}
-
-:::{.notes}
-data are scientific, while very creative, it can also be rigorous way to study world around us, to collect info (that's basically what individual data bits are!)
-:::
-
-## {background-image="imgs/Data_Actually_Are_4.png" fig-alt="White background slide with confetti in corners and 'Yes, and: Creative, Scientific, Everywhere' handwritten on it"}
-
-:::{.notes}
-EVERYWHERE! the more you look, the more you see! this makes it really fun to talk about data with other people- just ask my friends n fam haha
-:::
-
-## {background-image="imgs/invite.png" fig-alt="White background slide with confetti in corners and handwritten party invitiation that says 'Who: Everyone!; What: Talk about data!; Where: Wherever!; When: Whenever!; Why: It's cool! (& Useful); How: Excitement & Curiosity'"}
-
-![](imgs/emoji_party.png){.absolute top="45%" right="5%" width="350" height="350" fig-alt="Party face emoji"}
-
-::: {.notes}
-we're all at the biggest data party there is, but I'm formally inviting you to another. 
-In this one, it's about talking about data, especially with ppl who think they aren't "data people"
-Like a good party invite, it's a lot more fun if you've got all the
-details down (unless surprise party, but someone should have the details then) 
-:::
-
-## {background-image="imgs/Who_Slide_1.png" fig-alt="White background slide with confetti in corners and handwritten arrow with Novice on left, Expert on right"}
-
-::: {.notes}
+::: {layout="[55,45]"}
+::: {.div}
 let's clarify real quick who is a "data" person
 you may have noticed the "" around non data. that's intentional 
 
 usually self-designated (I think anyone/everyone can be a data person, but on a spectrum; we aren't/don't
 have to be at same level) 
 we also can be experts in some things, and novices in others
-:::
 
-## {background-image="imgs/Who_Slide_2.png" fig-alt="White background slide with confetti in corners and handwritten arrow with Novice on left, Expert on right. Arrow with blue asterisk points closer to novice"}
-
-:::{.notes}
-you might be here on spectrum for something
-:::
-
-## {background-image="imgs/Who_Slide_3.png" fig-alt="White background slide with confetti in corners and handwritten arrow with Novice on left, Expert on right. Arrow with blue asterisk points closer to novice. Sencond arrow points closer to expert"}
-
-:::{.notes}
 or maybe closer to expert
 or any number of places in between
 the place on the spectrum doesn't matter as much as we know that we all exist somewhere on it
-:::
 
-
-## {background-image="imgs/Who_Slide_4.png" fig-alt="White background slide with confetti in corners and several handwritten, swirling arrows from Novice on left to Expert on right."}
-
-:::{.notes}
 "worth noting that" line from novice to expert may not be at all
 straight, and that it's not a single line. It probably more looks like a
 swirling, multi-branched tree/plant root ("choose your own adventure" style) 
@@ -150,17 +93,31 @@ because we all might be "experts" in diff things, it's worthwhile sharing what w
 
 so when you're looking for people to talk to, look around, it's probably could be anyone...perhaps if you work in an org, talk with people not on your team, or people that you may work w/ obliquely
 :::
+::: {.div}
+![](imgs/rconf_preso_article/Who_Slide_3.png){fig-alt="Handwritten arrow with Novice on left, Expert on right. Arrow with blue asterisk points closer to novice. Sencond arrow points closer to expert"}
+![](imgs/rconf_preso_article/Who_Slide_4.png){fig-alt="Several handwritten, swirling arrows from Novice on left to Expert on right."}
+:::
+:::
 
-## {background-image="imgs/XY_Axis_Slide.png" fig-alt="White background slide with confetti in corners and handwritten xy-axis chart. X axis goes from Less Technical on left to More Technical on right, Y axis goes from Personal on bottom to General on top."}
+#### What
 
-::: {.notes}
+::: {layout="[55,45]"}
+::: {.div}
 what to say depends on level of person/where they are on data spectrum 
 Like are we going full on theme party (maybe into the weeds on a ML model) or staying a bit more high level with some small talk (maybe get excited about an interesting data journalism article you saw float by on Twitter recently) 
 
 The "what" could be educational/entertaining/both ('pique the curiosity'). Depends on the rest of the party invite
+
+Let's take music as a category example and see how we could talk about each thing.
+START LOWER LEFT W/ SPOTIFY WRAP
+call out pudding, if haven't heard of it
+:::
+::: {.div}
+![](imgs/rconf_preso_article/XY_Axis_Slide_Filled_In.png){fig-alt="Handwritten xy-axis chart. X axis goes from Less Technical on left to More Technical on right, Y axis goes from Personal on bottom to General on top. Quadrants are filled in; upper left says Music Borders; Upper right says Gold Record Data Art; Lower left says Spotify Wrapped; Lower right says How Bad is you streaming music?"}
+:::
 :::
 
-## {background-image="imgs/XY_Axis_Slide_Filled_In.png" fig-alt="White background slide with confetti in corners and handwritten xy-axis chart. X axis goes from Less Technical on left to More Technical on right, Y axis goes from Personal on bottom to General on top. Quadrants are filled in; upper left says Music Borders; Upper right says Gold Record Data Art; Lower left says Spotify Wrapped; Lower right says How Bad is you streaming music?"}
+
 
 :::{.absolute top="73%" left="15%"}
 [Spotify Wrapped](https://newsroom.spotify.com/2021-12-01/the-wait-is-over-your-spotify-2021-wrapped-is-here/){style="font-size: x-large;"}
@@ -178,15 +135,11 @@ The "what" could be educational/entertaining/both ('pique the curiosity'). Depen
 [Pudding's Judge My Spotify](https://pudding.cool/2021/10/judge-my-music/){style="font-size: x-large;"}
 :::
 
-:::{.notes}
-Let's take music as a category example and see how we could talk about each thing.
-START LOWER LEFT W/ SPOTIFY WRAP
-call out pudding, if haven't heard of it
-:::
 
-## {background-image="imgs/Where_When.png" fig-alt="White background with confetti in corners; yellow cocktail table drawn on left, and calendar of July on right"}
+#### Where + When
 
-::: {.notes}
+::: {layout="[55,45]"}
+::: {.div}
 lol always and forever
 consider where people encounter data/viz
 Consider: Is this a last minute backyard hangout or a wedding planned
@@ -200,7 +153,12 @@ side of data (e.g. a new/unexpected place to find data, or a creative
 data use), the where/when might be over lunch, or a brief meeting in a
 hallway, etc
 :::
+::: {.div}
+![](imgs/Where_When.png){fig-alt="White background with confetti in corners; yellow cocktail table drawn on left, and calendar of July on right"}
+:::
+:::
 
+#### Why
 ## {background-image="imgs/Sci_Art.png" fig-alt="White background with confetti in corners, equation of Data=Science+Art handwritten on slide"}
 
 ::: {.notes}
@@ -302,7 +260,9 @@ but my main advice? just go for it.
 just get started? may very likey feel awk, but just need to jump in and do it
 :::
 
-## {background-image="imgs/End_Story.png" fig-alt="White background with 8 colorful data portraits/badges that describe my coworkers, based on a legend."}
+#### Ending on a story
+
+TODO add pic for side by side (add legend too? double stack it)
 
 ::: {.notes}
 so, a story for why it's selfishly good to talk to "non datas"... 
@@ -322,12 +282,29 @@ So, we, data people can selfishly do cooler things when others realize our power
 
 ## {background-image="imgs/Ty_And_Question.png" fig-alt="White background with confetti in corners; 'Thank you' and 'Questions?' written on the slide."}
 
-:::{.footer}
-Want to talk more? Holler @ [carobuck.com](https://carobuck.com/)
+
+
+#### PS: You *totally* have something worthwhile to share
+
+While preparing to speak at the conference, I came across this article about the [value of publishing your work](https://github.com/readme/guides/publishing-your-work) by Aaron Francis. 
+::: {style="font-size: 1.8em; font-style:bold;"}
+"They think that they're not doing anything interesting because they
+assume that everyone knows as much as they do...
+<br />
+As you become more of an expert, your quality bar gets higher and higher and you
+forget that everything you know is not known by everyone."
 :::
 
-::: {.notes}
-Thanks for coming to my party! Go do your own parties now! 
-:::
+[-Aaron Francis]{style="font-size: xxx-large;"}
 
 
+
+to set us up for this talk, I want to share this quote as a little inspo content.
+we're all "masters" of something (master being a term that exists on a spectrum and can be loosely defined)
+sometimes we forget just how much we know, or we might be "masters" of
+different things, and it's worthwhile to remember our blind spots and share what we do know. 
+
+everyone has something to share- don't sit out there and think u have nothing
+
+
+Thanks for coming to my party! Go do your own parties now! If you want to talk more, holler @ [carobuck.com](https://carobuck.com/)
