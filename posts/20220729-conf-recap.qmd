@@ -1,9 +1,30 @@
 ---
-title: "rstudio::conf(2022) Recap"
+title: "RStudio::conf(2022) Recap"
 date: '2022-07-29'
-draft: true
 ---
 
-Recap of my experience at my first (and last*) rstudio::conf(2022)
+::: {layout="[55,45]"}
+::: {.div}
+WOW. WOW. WOWOW. 
+</br></br>
+That's all I can say for my first (and last^[Last not because I wouldn't recommend or anything like that...but because next time it'll be Posit::conf()! ]) RStudio::conf() experience. It was a surreal, exciting and dreamy time getting to not only attend, but also speak at, the conference. I met lots of folks, made some data friends (shout out to everyone who said hi and/or was willing to answer my questions), and for the first time was surrounded by so many people who were just as pumped about data as I am.
 
-add footnote last is b/c Posit
+I've found the online R (and data) community to be rather welcoming and open to questions. Even so, I was pleasantly surprised to see the extent of that kindness overflow into real life interactions with people IRL- it was so easy to strike up conversation with "strangers" and the atmosphere lent itself well to curiosity. One of the "rules" announced in the first keynote was to always leave space for Pacman's mouth in a group- to leave enough space for anyone to wander up and join the conversation without feeling weird. The level of inclusivity and openness this tiny little action brought was amazing!
+:::
+::: {.div}
+</br></br></br>
+
+![Me at rstudio::conf(2022). I didn't walk away with quite as many hex stickers as the wall behind me... but it's probably close](imgs/caroAtConf.jpg){fig-alt="picture of a girl in blue Tshirt and green shorts standing excitedly in front of a background covered in R package stickers" fig-height=350}
+:::
+:::
+
+
+
+### Top takeaways from the conference
+
+* **So. Much. Fun.** *Lots of new people, stickers and great sessions- I can't wait until the recordings are posted online, because with four tracts running simultaneously and me not having a time turner, I had to make some tough choices about what to attend in-person versus what to watch later.*
+* **New name & rebranding! RStudio $\rightarrow$ [Posit](https://www.rstudio.com/blog/rstudio-is-becoming-posit/), as of October.** *This announcement in the first keynote was very exciting.^[Yes, it did in fact feel like an episode of Oprah when they told us to look under our seats for new stickers. And, yes, I'm totally here for that energy! ] Along with the name change, Posit is focused on being a company that is around for the long term, supporting data and open science in whatever flavors or languages are popping decades from now. So, not abandoning R whatsoever, but broadening the view to support more data and science endeavors.* 
+* **[Quarto](https://quarto.org/) is really, really neat.** *Following along with the broader emphasis on open-science and good data communication, there was LOTS of talk about Quarto. From my own experience, it's an amazing and powerful document^[Websites, books, blogs, articles, PDFs, slides, documents galore! Seriously, why are you still reading the footnotes?! Go check out [Quarto](https://quarto.org/) right now!! ] creation tool. I hopped on the bandwagon early and made my slides for conf in Quarto, then after conf I fully jumped in and converted my entire website to Quarto.^[Was relatively pain free. Would recommend. ]*
+* **[Vetiver](https://rstudio.github.io/vetiver-r/) to make MLOps less painful** *This is a new package (developed for R and Python) that I'm looking forward to trying out. Having had some less than delightful MLOps issues in the past (AI graffiti, I'm looking at you), I'm optimistic about this package to make the whole process better!*
+
+
