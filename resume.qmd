@@ -1,0 +1,95 @@
+---
+title: ""
+toc: false
+fontsize: medium
+linkcolor: '#212322'
+css: resume_styles.css
+---
+::: {.column-screen}
+![](posts/imgs/banner.png){fig-alt="a hand-drawn banner of confetti"}
+:::
+
+::: {.column-screen-inset}
+
+### **Caroline Buck**
+
+::: {layout="[50,50]"}
+::: {.div}
+[carobuck.com](https://carobuck.com/) </br>
+[cbuck717@gmail.com](mailto:cbuck717@gmail.com) </br>
+*R* | *Python* | *Quarto* | *Flask* | *GCP* </br></br>
+I'm a curious and creative human, with a passion for data of all sorts. I love wrangling unconventional data, or using a visualization to build understanding and promote data literacy.
+
+I have worked on a wide variety of client projects, from AI-generated graffiti and time series modeling to advanced analytics and data visualization. I thrive in environments where data, curiosity, creativity and rabbit holes are encouraged.
+</br>
+
+#### Education
+
+**B.S. Applied Mathematics + CS Minor** | *Seatte Pacific University* | 2014 - 2018
+
+::: {.div .important}
+* Graduated Summa Cum Laude	
+* Ranked Meritorious Winner in Interdisciplinary Contest in Modeling (Jan 2017)	
+* Ranked Honorable Mention in Mathematical Contest in Modeling (Jan 2016, Jan 2018)				
+:::
+
+#### Other Experience
+
+**Math Tutor and TA**	| *Seattle Pacific University & Private Tutor*
+
+**Youth Group Leader** | *Bethany Community Church*	
+
+**Guest Services** | *Community Dinners*
+
+*Want to talk more? Give a holler!*
+:::
+
+::: {.div}
+
+#### Experience
+
+**Data Scientist** | Jan 2022-Present
+
+*Wunderman Thompson Global Creative Data Group*
+
+::: {.div .important}
+* Collaborate with teammates to build interactive web apps that push the boundaries of creative data technology
+* Build backend "data magic" to support a wide variety of apps, such as: AI-generated graffiti, color analysis, gaze tracking, disease modeling, poetry generation
+* Incorporate a variety of data sources to address client needs and questions
+* Tools include: R (tidyverse, tidymodels), Python (Pandas, CLIP+VQGAN, Flask, NLTK, spaCy), SQL, GPT-3, Google Cloud Platform (Firebase), git, Quarto
+* Actively lead EarthRise, Wunderman Thompson's Sustainability B+ERG	
+:::
+
+**Senior Analyst, Data Scientist** (previously Data Analyst) | Aug 2019-Jan 2022
+
+*Wunderman Thompson Seattle*
+
+::: {.div .important}
+* Forecast key business metrics after establishing, and documenting, an improved modeling process
+* Create a variety of unique and informative visualizations to communicate data insights effectively
+* Explore audience segmentation to drive insights, inform strategic direction and inspire creative campaigns
+* Enhance client data with individualized consumer data to understand behavior, needs and interests
+* Manage data organization, categorization and structure
+* Tools include: R (tidyverse, tidymodels, modeltime, prophet), SQL, git, Adobe Analytics
+* Actively lead EarthRise, Wunderman Thompson's Sustainability B+ERG
+:::
+
+**Associate Digital Analyst** (previously Marketing Sciences Intern) | Jun 2018-Aug 2019
+
+*Possible Seattle*
+
+::: {.div .important}
+* Design and develop reports based on CRM and web data
+* Build new data ETL process for storing CRM data	
+* Audit web performance for engagement and pathing behavior	
+* Maintain media reporting dashboards used to tune strategy
+* Tools include: Adobe Analytics, Excel, PowerPoint, R, ggplot2, Python 			
+:::
+
+:::
+:::
+:::
+
+::: {.column-screen}
+![](posts/imgs/banner.png){fig-alt="a hand-drawn banner of confetti"}
+:::
