@@ -16,89 +16,59 @@ Quick introduction for context: I'm Caro (short for Caroline) and I'm a data sci
 
 This article is about talking to people who think they're not data people. It's an invitation to a new kind of party- a data party! 
 
-Like any good party, we'll give some context for why we're doing this, then we'll cover the who, where, when, why, what and how of the party. 
-
 Like a good party invite, it's a lot more fun if you've got all the
-details down (unless surprise party, but someone should have the details then) 
+details down (unless surprise party, but someone else should have the details then). So, let's hop in!
 
 ***
+So, in 2020, we all kind of became arm chair experts...
 
 ::: {layout="[55,45]"}
 ::: {.div}
-So, in 2020, we all kinda became arm chair experts...
-
-If you were thinking COVID-19, then we are thinking the same thing. Data have always had (and still currently do have) a large impact in our lives, but the various impacts over time have not always been visible. Thanks to a global pandemic, data suddenlyt moved to the forefront and had a very visceral, very real, very obvious impact in our lives. dictated what we should/shouldn't do, who we could see, where we could go. understanding numbers and charts suddenly became crucial to our daily lives and a lot of new jargon was thrown into the vernacular- e.g. "flatten the curve" "mask up" etc. 
+If you were thinking COVID-19, then we are thinking the same thing. Data have always had (and still currently do have) a large impact in our lives, but the various impacts over time have not always been visible. Thanks to a global pandemic, data suddenly moved to the forefront and had a very visceral, real and obvious impact in our lives. Statistical jargon became commonplace in casual conversation and numbers, charts and case counts dictated what we should or shouldn't do, who we could see, where we could go. Being able to understand numbers and charts suddenly became crucial to navigate daily life. 
 :::
 :::{.div}
 ![](imgs/rconf_preso_article/Armchair_COVID.png){fig-alt="A hand-drawn navy and gold arm chair with a covid virus drawn on top." fig-height=350}
 :::
 :::
-
+***
 #### Data (Mis)conceptions
 
 ::: {layout="[55,45]"}
 ::: {.div}
-so let's hop into it. Ppl have lots of (mis)conceptions about what data are- maybe tables, numbers, lots of 1/0s, charts, etc.
-CLICK: Or maybe they just think it's something big, and needs a lot of thinking
-CLICK: or maybe that it's something scary, something to be afraid of
-CLICK: or maybe, it's something just for nerds and is "too hard" to understand -this one makes me sad/angry :(
+The average person might have a lot of baggage surrounding data- we've been told (by media, math class, social media, etc.) that data are a bunch of numbers, maybe in table or chart format, and could be big, scary and/or intimidating. 
+
 :::
 ::: {.div}
 TODO insert pic here about what ppl think data are
 :::
 :::
 
-
-:::{.fragment}
-![](imgs/emoji_think.png){.absolute bottom="17%" right=725 width="275" height="275" fig-alt="Thinking face emoji"}
-:::
-:::{.fragment}
-![](imgs/emoji_omg.png){.absolute bottom="17%" right=400 width="275" height="275" fig-alt="OMG face emoji"}
-:::
-:::{.fragment}
-![](imgs/emoji_nerd.png){.absolute bottom="17%" right=75 width="275" height="275" fig-alt="Nerd face emoji"}
-:::
-
 ***
-So what are data? Spoiler- all of those things! And so much more! Like in improv, this is a "yes, and" situation. meaning you take what your partner offers, and add something to the story, you may shape and refine and take in a new direction, but you meet the person where they're coming from/currently at
+**So what are data?** Spoiler- all of those things! And so much more! Like in improv comedy, this is a ["yes, and..."](https://en.wikipedia.org/wiki/Yes,_and...) situation. Meaning that you take what others offer, and add something to the story. You may shape, refine and take things in a new direction, yet you meet the person where they're currently at. When talking to people about data, it's really important to understand what conceptions they have about data. 
 
 In addition to the above, data are:
 
-* Creative! so much more than black/white (lots gray in between). data not always "hard n fast" or "right"
-* Scientific, while very creative, it can also be rigorous way to study world around us, to collect info (that's basically what individual data bits are!)
-* EVERYWHERE! the more you look, the more you see! this makes it really fun to talk about data with other people- just ask my friends n fam haha
+* Creative! Despite what we might (think we) want, data are not always "right"- there's a lot more color involved, than just a simple black or white answer. 
+* Scientific! While very creative, data are also a rigorous way to study the world around us and collect info 
+* Everywhere! The more you look, the more you see! This is what makes data really fun to talk about with other people- just ask my friends and family who've gotten an earful!
 
 Now that we've cleared that up, let's hop into this invitation- don't forget to RSVP!
 
 ***
 #### Who
+Let's quickly clarify who is a "data" person and who is a "non-data" person. You may have noticed the quotes- that's completely intentional.
 
-::: {layout="[55,45]"}
-::: {.div}
-let's clarify real quick who is a "data" person
-you may have noticed the "" around non data. that's intentional 
+"Data" person and "non-data" person are usually self-designated labels, perhaps based on one's job function or how good they think they are at math. However, rather than this exclusive view, I believe that everyone can be (and is!) a data person; we all exist somewhere on a spectrum of data readiness and the goal is not to all exist in the same place, rather it is to realize that the spectrum exists, and we can all exist on it in our own place. 
 
-usually self-designated (I think anyone/everyone can be a data person, but on a spectrum; we aren't/don't
-have to be at same level) 
-we also can be experts in some things, and novices in others
+![We all exist somewhere along the data readiness spectrum, somewhere between Novice and Expert.](imgs/rconf_preso_article/Who_Slide_3.png){fig-alt="Handwritten arrow with Novice on left, Expert on right. Arrow with blue asterisk points closer to novice. Sencond arrow points closer to expert"}
 
-or maybe closer to expert
-or any number of places in between
-the place on the spectrum doesn't matter as much as we know that we all exist somewhere on it
+It is also worth noting that the line from novice to expert is very likely not a straight line. In reality, the journey to becoming an expert is filled with unexpected twists and turns- and usually once you reach "expert level", you really just realize how much more you still have to learn. There are also multiple paths to expert, and because we can all be experts existing in our own niche worlds, it's worthwhile to to share what we know. To remember that not everyone is following us down the exact same niche rabbitholes, and it's worth looking around, remembering our blindspots and sharing what we have learned with others. 
 
-"worth noting that" line from novice to expert may not be at all
-straight, and that it's not a single line. It probably more looks like a
-swirling, multi-branched tree/plant root ("choose your own adventure" style) 
-because we all might be "experts" in diff things, it's worthwhile sharing what we know! remember, quote from before about common blindspots!
+![Lots of ways to be an expert (none superior over another).](imgs/rconf_preso_article/Who_Slide_4.png){fig-alt="Several handwritten, swirling arrows from Novice on left to Expert on right."}
 
-so when you're looking for people to talk to, look around, it's probably could be anyone...perhaps if you work in an org, talk with people not on your team, or people that you may work w/ obliquely
-:::
-::: {.div}
-![](imgs/rconf_preso_article/Who_Slide_3.png){fig-alt="Handwritten arrow with Novice on left, Expert on right. Arrow with blue asterisk points closer to novice. Sencond arrow points closer to expert"}
-![](imgs/rconf_preso_article/Who_Slide_4.png){fig-alt="Several handwritten, swirling arrows from Novice on left to Expert on right."}
-:::
-:::
+So when you're looking for people to talk to about data: look around, it's likely that you could talk with anyone. Perhaps holler at a friend or roommate, or if you work in a large organization, talk with folks not on your team, or those you work with obliquely. 
 
+***
 #### What
 
 ::: {layout="[55,45]"}
