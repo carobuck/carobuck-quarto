@@ -9,9 +9,8 @@ toc: false
 ## RStudio::conf(2022)
 **The Benefit of Talking to the "Non-Datas"**
 
-Slides available [here](https://rconf-2022-caro-buck.netlify.app/#/section); Github repo that powers the slides available [here](https://github.com/carobuck/rconf-talk-2022-slides).
+Slides available [here](https://rconf-2022-caro-buck.netlify.app/#/section), Github repo that powers the slides available [here](https://github.com/carobuck/rconf-talk-2022-slides), and video recording available [here](https://www.rstudio.com/conference/2022/talks/benefit-of-talking-to-non-datas/)!
 
-Video recording coming soon!
 
 ## I-COM Summit Experience 
 **Johnson & Johnson + Nicorette Hackathon Finalist Presentation**
