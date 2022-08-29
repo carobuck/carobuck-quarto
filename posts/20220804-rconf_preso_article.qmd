@@ -44,12 +44,12 @@ TODO insert pic here about what ppl think data are
 :::
 
 ***
-**So what are data?** Spoiler- all of those things! And so much more! Like in improv comedy, this is a ["yes, and..."](https://en.wikipedia.org/wiki/Yes,_and...) situation. Meaning that you take what others offer, and add something to the story. You may shape, refine and take things in a new direction, yet you meet the person where they're currently at. When talking to people about data, it's really important to understand what conceptions they have about data. 
+**So what are data?** Spoiler- all of those things! And so much more! Like in improv comedy, this is a ["yes, and..."](https://en.wikipedia.org/wiki/Yes,_and...) situation. Meaning that you take what others offer, and add something to the story. You may shape, refine and take things in a new direction, yet you meet the person where they're currently at. When talking to people about data, it's really important to understand what conceptions they currently have about data. 
 
 In addition to the above, data are:
 
-* Creative! Despite what we might (think we) want, data are not always "right"- there's a lot more color involved, than just a simple black or white answer. 
-* Scientific! While very creative, data are also a rigorous way to study the world around us and collect info 
+* Creative! Despite what we might (think we) want, data are not always "right"- there's a lot more color involved, rather than just a simple black or white answer. 
+* Scientific! While very creative, data are also a rigorous way to study the world around us and collect information. 
 * Everywhere! The more you look, the more you see! This is what makes data really fun to talk about with other people- just ask my friends and family who've gotten an earful!
 
 Now that we've cleared that up, let's hop into this invitation- don't forget to RSVP!
@@ -62,50 +62,29 @@ Let's quickly clarify who is a "data" person and who is a "non-data" person. You
 
 ![We all exist somewhere along the data readiness spectrum, somewhere between Novice and Expert.](imgs/rconf_preso_article/Who_Slide_3.png){fig-alt="Handwritten arrow with Novice on left, Expert on right. Arrow with blue asterisk points closer to novice. Sencond arrow points closer to expert"}
 
-It is also worth noting that the line from novice to expert is very likely not a straight line. In reality, the journey to becoming an expert is filled with unexpected twists and turns- and usually once you reach "expert level", you really just realize how much more you still have to learn. There are also multiple paths to expert, and because we can all be experts existing in our own niche worlds, it's worthwhile to to share what we know. To remember that not everyone is following us down the exact same niche rabbitholes, and it's worth looking around, remembering our blindspots and sharing what we have learned with others. 
+It is also worth noting that the line from novice to expert is very likely not a straight line. In reality, the journey to becoming an expert is filled with unexpected twists and turns- and usually once you reach "expert level", you really just realize how much more you still have to learn. There are also multiple paths to expert, and because we can all be experts existing in our own niche worlds, it's worthwhile to share what we know, to remember that not everyone is following us down the exact same niche rabbit holes. 
 
 ![Lots of ways to be an expert (none superior over another).](imgs/rconf_preso_article/Who_Slide_4.png){fig-alt="Several handwritten, swirling arrows from Novice on left to Expert on right."}
 
-So when you're looking for people to talk to about data: look around, it's likely that you could talk with anyone. Perhaps holler at a friend or roommate, or if you work in a large organization, talk with folks not on your team, or those you work with obliquely. 
+So when you're looking for people to talk to about data: look around, it's likely that you could talk with anyone. Perhaps holler at a friend or roommate, or if you work in a large organization, perhaps talk with folks not on your team, or those you work with obliquely. 
 
 ***
 #### What
 
-::: {layout="[55,45]"}
-::: {.div}
-what to say depends on level of person/where they are on data spectrum 
-Like are we going full on theme party (maybe into the weeds on a ML model) or staying a bit more high level with some small talk (maybe get excited about an interesting data journalism article you saw float by on Twitter recently) 
+Now that we know who's invited to this party, what should we talk about? What to say when it comes to data can often depend on who we are talking to and where they are at on the data spectrum. For instance, maybe the person has a decent grasp of data things and we're going full on theme party (perhaps into the weeds on a fancy AI model). Or maybe we're staying a bit more high level with some small talk party chatter (perhaps getting excited about an interesting data journalism article you saw float by on Twitter recently). The "what" could be educational, entertaining, or both- it depends on the rest of the party invitation.
 
-The "what" could be educational/entertaining/both ('pique the curiosity'). Depends on the rest of the party invite
+One way to think about the "what" is to visualize it on a 2x2 grid. Let's take music as a category example and see what fits into each quadrant.
 
-Let's take music as a category example and see how we could talk about each thing.
-START LOWER LEFT W/ SPOTIFY WRAP
-call out pudding, if haven't heard of it
-:::
-::: {.div}
-![](imgs/rconf_preso_article/XY_Axis_Slide_Filled_In.png){fig-alt="Handwritten xy-axis chart. X axis goes from Less Technical on left to More Technical on right, Y axis goes from Personal on bottom to General on top. Quadrants are filled in; upper left says Music Borders; Upper right says Gold Record Data Art; Lower left says Spotify Wrapped; Lower right says How Bad is you streaming music?"}
-:::
-:::
+![Examples of what to talk about at your data party.](imgs/rconf_preso_article/XY_Axis_Slide_Filled_In.png){fig-alt="Handwritten xy-axis chart. X axis goes from Less Technical on left to More Technical on right, Y axis goes from Personal on bottom to General on top. Quadrants are filled in; upper left says Music Borders; Upper right says Gold Record Data Art; Lower left says Spotify Wrapped; Lower right says How Bad is you streaming music?"}
+Let's start with [Spotify Wrapped](https://newsroom.spotify.com/2021-12-01/the-wait-is-over-your-spotify-2021-wrapped-is-here/) in the lower left quadrant. You've probably seen Spotify's end of year recap over the past few years; it's a fun way to see what you (and your friends) have been listening to the past year. Under the hood, the data is pretty simple, it's essentially just counts of how many times a song (or artist or album or genre) was streamed. It's personal and easy to connect to because it's your music, you did the listening over the past year! The familiarity and simplicity of Spotify wrapped make it a great starting conversation for a data party. 
 
+Moving up a quadrant, The Pudding's [Music Borders](https://pudding.cool/2018/06/music-map/?date=202106)^[Side note, if you haven't heard of [The Pudding](https://pudding.cool/) before, please go check them out. They make some really [cool](https://pudding.cool/2021/01/cool/) stuff. ] is also very approachable for data party conversation. Similar to Spotify Wrapped, the data under the hood are stream counts, but this project takes it up a notch by comparing recent top songs around the country and world. Though not necessarily personal to your own music tastes, it is interesting to explore what's popular in other parts of the world. 
 
+Moving right, Nadieh Bremer's [Gold Record Data Art](https://www.visualcinnamon.com/portfolio/sony-music-data-art/) is a beautiful visualization of music related data. It is more technically complex because it incorporates a few different data sources, from streaming data to song-specific data (including amplitude, frequency and time). Though still very approachable, a visualization that combines multiple data sets in an elegant way may lead to a bigger data party conversation. 
 
-:::{.absolute top="73%" left="15%"}
-[Spotify Wrapped](https://newsroom.spotify.com/2021-12-01/the-wait-is-over-your-spotify-2021-wrapped-is-here/){style="font-size: x-large;"}
-:::
+Finally, in the bottom right quadrant we've got The Pudding's [Judge My Spotify](https://pudding.cool/2021/10/judge-my-music/) AI tool that will roast you for your music choices. It's hilarious, fun and customized to your own listening history, and under the hood there's a complex machine learning model you could unpack in a more detailed data party. 
 
-:::{.absolute top="35%" left="15%"}
-[Pudding's Music Borders](https://pudding.cool/2018/06/music-map/?date=202106){style="font-size: x-large;"}
-:::
-
-:::{.absolute top="35%" left="50%"}
-[Nadieh Bremer's Gold Record Data Art](https://www.visualcinnamon.com/portfolio/sony-music-data-art/){style="font-size: x-large;"}
-:::
-
-:::{.absolute top="73%" left="50%"}
-[Pudding's Judge My Spotify](https://pudding.cool/2021/10/judge-my-music/){style="font-size: x-large;"}
-:::
-
-
+***
 #### Where + When
 
 ::: {layout="[55,45]"}
