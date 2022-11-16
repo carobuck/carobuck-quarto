@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway');
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap');
 
 // Fonts
 $font-family-monospace: "Roboto Condensed", sans-serif;
@@ -15,10 +16,26 @@ $body-color: #212322;
 $link-color: #17D1D8;
 $navbar-bg: #002B36;
 
-// Sidebar/background image
+
+/*-- scss:rules --*/
+
+// TODO: ASK MICK WHICH FONT LOOKS BETTER
+
+
+.portfolio {
+  color: #3a3b3c;
+  font-family: "Sono";
+  font-size: small;
+}
+.caption {
+  color: #3a3b3c;
+  font-size: small;
+  font-style: italic;
+}
+
 
 //this stuff doesn't work to show background :(...
-// ask jerred how. Or tom Mock if I'm doing something wrong. --> tweet at him
+//TBD figure out if this works? --> I don't think it's doing anything
 
 body {
   $background-image: url("posts/imgs/Background.png");

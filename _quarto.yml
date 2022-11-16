@@ -3,7 +3,7 @@ project:
 
 website:
   title: "Data Parties"
-  subtitle: "(and other things I won't shut up about)"
+  #subtitle: "(and other things I won't shut up about)"
   google-analytics: "G-WM3Q5HHPPE"
   navbar:
     right:
@@ -11,6 +11,8 @@ website:
         text: about
       - href: talks.qmd
         text: talks
+      - href: portfolio.qmd
+        text: portfolio
       - href: blog.qmd
         text: musings
       - href: reading.qmd
