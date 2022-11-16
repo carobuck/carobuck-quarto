@@ -1,16 +1,23 @@
 ---
-title: "Junk Drawer"
+title: ""
 search: false
 ---
 
 ::: {.column-screen}
 ![](posts/imgs/banner.png){fig-alt="a hand-drawn banner of confetti"}
-
-Congrats! You've found my junk drawer- the stuff that I don't know where it belongs, but I don't want to actually get rid of it. Welcome. 
-
 :::
 
-::: {.column-margin}
+:::{.column-page}
+Congrats! You've found my junk drawer- the stuff that I don't know where it belongs, but I don't want to actually get rid of it. Welcome. 
+:::
 
+::: {.column-body-outset}
+:::{layout="[50,50]"}
+:::{.div}
 !["Whole ass or nothing" when it comes to a party](posts/imgs/trelawney.gif){fig-alt="A gif of a girl with long curly hair dressed up as Professor Trelawny, with lots of shawls and a slightly crazed look in my eyes."}
+:::
+:::{.div}
+![One of the greatest compliments I've ever received](posts/imgs/iamacaster.png){fig-alt="screenshot of text message"}
+:::
+:::
 :::
