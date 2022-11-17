@@ -1,38 +1,59 @@
 ---
 title: "Portfolio"
+toc: true
 ---
 
-::: {.column-screen-inset}
-#### Visualizations
-Click an image to see the underlying code. 
+### Creative Tech
 
-::: {layout-ncol=3}
-[![[caption]{.portfolio}](posts/imgs/portfolio/viz/20210112_artwork.png){fig-alt="words"}](https://github.com/carobuck/tidyTuesday/blob/main/20210112_artwork.R)
+::: {layout-ncol=2}
 
-[![[caption]{.portfolio}](posts/imgs/portfolio/viz/20210119_kenyacrops.png){fig-alt="words"}](https://github.com/carobuck/tidyTuesday/blob/main/20210119_kenyaCensus.R)
+:::{.div .portfolio}
+[![[Sherwin-Williams Speaking in Color]{.bold}](posts/imgs/portfolio/sic.png){fig-alt="words"}](https://speakingincolor.app/)
 
-![[caption]{.portfolio}](posts/imgs/portfolio/viz/dubois.png){fig-alt="words"}
-
-[![[caption]{.portfolio}](posts/imgs/portfolio/viz/employstatus.png){fig-alt="words"}](https://github.com/carobuck/tidyTuesday/blob/main/20210223_employmentstatus.Rmd)
-
-[![[caption]{.portfolio}](posts/imgs/portfolio/viz/lifeWealth.png){fig-alt="words"}](https://github.com/carobuck/tidyTuesday/blob/main/20210209_lifetimeWealth.md)
-
-[![[caption]{.portfolio}](posts/imgs/portfolio/viz/plasticPollution.png){fig-alt="words"}](https://github.com/carobuck/tidyTuesday/blob/main/20210126_plasticPollution.R)
-
-[![[caption]{.portfolio}](posts/imgs/portfolio/viz/plasticPollution_bernie.png){fig-alt="words"}](https://github.com/carobuck/tidyTuesday/blob/main/20210126_plasticPollution.R)
-
+* Converting words to colors to data and back again
+* [2022 Cannes Lions Winner: Creative B2B (Grand Prix, Silver) & Digital Craft (Bronze)](https://www.wundermanthompson.com/news/grand-prix-for-speaking-in-color){.portfolio}
 :::
 
-#### Quarto Projects
+:::{.div .portfolio}
+[![[Smallpox Modern Threat]{.bold}](posts/imgs/portfolio/smallpox.png){fig-alt="logo for project that says 'smallpox modern threat'"}](https://www.mmm-online.com/home/channel/wundermans-smallpox-simulator-models-outbreaks-to-chilling-effect/)
 
-::: {layout-ncol=3}
-[![[Party invitation]{.portfolio}](posts/imgs/portfolio/FROLIDAYS_2022_sm.png){fig-alt="words"}](https://frolidays.netlify.app/)
-
-[![[Microsite for B+ERG]{.portfolio}](posts/imgs/portfolio/FROLIDAYS_2022_sm.png){fig-alt="words"}](https://frolidays.netlify.app/)
-
-[![[My sister wrote a book, I helped format and edit it.]{.portfolio}](posts/imgs/portfolio/FROLIDAYS_2022_sm.png){fig-alt="words"}](https://restricted-files.netlify.app/)
-
+* Disease modeling and data visualizations
+* [2022 LIA Bronze Award: Health & Wellness Creative Use of Data](https://www.liaentries.com/winners/?id_entry=106428&id_medium=28&id_submedium=80&id_category=0&view=details&range=f&page=8&keyword=&medium=28,31&category=&award=b&country=&title_brand=&credits=&company_name=&city=&proceed_simple_search=false&proceed_advanced_search=true){.portfolio}
+* [MM+M Silver Award: Global Campaign 2022](https://www.mmm-online.com/mmm-awards/global-campaign-2022/){.portfolio}
 :::
 :::
 
+### Quarto Projects
 
+::: {layout="[30,-5,30,-5,30]"}
+[![[Party Invitation]{.portfolio}](posts/imgs/portfolio/FROLIDAYS_2022_sm.png){fig-alt="words"}](https://frolidays.netlify.app/)
+
+[![[Microsite for B+ERG]{.portfolio}](posts/imgs/portfolio/earthrise.png){fig-alt="words"}]()
+
+[![[My sister wrote a book, I helped format and edit it.]{.portfolio}](posts/imgs/portfolio/restricted_files.png){fig-alt="image with book title: the restricted files."}](https://restricted-files.netlify.app/)
+:::
+
+### Visualizations
+[*Click an image to see the underlying code.*]{.portfolio}
+
+::: {layout="[30,-5,30,-5,30]"}
+
+[![[TidyTuesday: Jan 12, 2021]{.portfolio}](posts/imgs/portfolio/viz/20210112_artwork.png){fig-alt="words"}](https://github.com/carobuck/tidyTuesday/blob/main/20210112_artwork.R)
+
+[![[TidyTuesday: Jan 19, 2021]{.portfolio}](posts/imgs/portfolio/viz/20210119_kenyacrops.png){fig-alt="words"}](https://github.com/carobuck/tidyTuesday/blob/main/20210119_kenyaCensus.R)
+
+[![[TidyTuesday: Jan 26, 2021]{.portfolio}](posts/imgs/portfolio/viz/plasticPollution.png){fig-alt="words"}](https://github.com/carobuck/tidyTuesday/blob/main/20210126_plasticPollution.R)
+
+[![[TidyTuesday: Jan 26, 2021]{.portfolio}](posts/imgs/portfolio/viz/plasticPollution_bernie.png){fig-alt="words"}](https://github.com/carobuck/tidyTuesday/blob/main/20210126_plasticPollution.R)
+
+![[TidyTuesday]{.portfolio}](posts/imgs/portfolio/viz/dubois.png){fig-alt="words"}
+
+[![[TidyTuesday: Feb 9, 2021]{.portfolio}](posts/imgs/portfolio/viz/lifeWealth.png){fig-alt="words"}](https://github.com/carobuck/tidyTuesday/blob/main/20210209_lifetimeWealth.md)
+
+[![[TidyTuesday: Feb 23, 2021]{.portfolio}](posts/imgs/portfolio/viz/employstatus.png){fig-alt="words"}](https://github.com/carobuck/tidyTuesday/blob/main/20210223_employmentstatus.Rmd)
+
+[![[]{.portfolio}](posts/imgs/portfolio/viz/moreviz.png){fig-alt="image says 'more coming soon'"}]()
+
+[![[]{.portfolio}](posts/imgs/portfolio/viz/moreviz.png){fig-alt="image says 'more coming soon'"}]()
+
+:::

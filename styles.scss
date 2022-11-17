@@ -19,8 +19,6 @@ $navbar-bg: #002B36;
 
 /*-- scss:rules --*/
 
-// TODO: ASK MICK WHICH FONT LOOKS BETTER
-
 
 .portfolio {
   color: #3a3b3c;
@@ -29,6 +27,12 @@ $navbar-bg: #002B36;
 }
 .caption {
   color: #3a3b3c;
+  font-size: small;
+  font-style: italic;
+}
+.bullets {
+  color: #3a3b3c;
+  font-family: "Sono";
   font-size: small;
   font-style: italic;
 }
