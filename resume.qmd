@@ -16,7 +16,7 @@ css: resume_styles.css
 ::: {layout="[50,50]"}
 ::: {.div}
 [carobuck.com](https://carobuck.com/) </br>
-[cbuck717@gmail.com](mailto:cbuck717@gmail.com) </br>
+[caro@carobuck.com](mailto:caro@carobuck.com) </br>
 *R* | *Python* | *Quarto* | *Flask* | *GCP* </br></br>
 I'm a curious and creative human, with a passion for data of all sorts. I love wrangling unconventional data, or using a visualization to build understanding and promote data literacy.
 
