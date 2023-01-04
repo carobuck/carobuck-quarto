@@ -34,9 +34,15 @@ toc: true
 :::
 
 ### Visualizations
-[*Click an image to see the underlying code.*]{.portfolio}
+[*Click an image to see the underlying details*]{.portfolio}
 
 ::: {layout="[30,-5,30,-5,30]"}
+
+[![[Data Portraits @ Work]{.portfolio}](posts/imgs/ported_imgs/cia-portrait.png){fig-alt="data portraits, one for each member of my team. Each portrait is colorful rectangle with abstract shapes/doodles"}](https://carobuck.com/posts/cia-portraits.html)
+
+[![[Mom's Day]{.portfolio}](posts/imgs/ported_imgs/Moms_Day_2020.jpg){fig-alt="Floral inspired visualization with green, red, purple and yellow flowers on a gray background"}](https://carobuck.com/posts/moms-day-2020.html)
+
+[![[A Week of LOLs]{.portfolio}](posts/imgs/ported_imgs/lol_viz.jpg){fig-alt="The final visualization: a multitude of colorful hand-drawn symbols in a grid"}](https://carobuck.com/posts/week-of-lols.html)
 
 [![[TidyTuesday: Jan 12, 2021]{.portfolio}](posts/imgs/portfolio/viz/20210112_artwork.png){fig-alt="words"}](https://github.com/carobuck/tidyTuesday/blob/main/20210112_artwork.R)
 
@@ -49,7 +55,8 @@ toc: true
 ![[TidyTuesday]{.portfolio}](posts/imgs/portfolio/viz/dubois.png){fig-alt="words"}
 
 [![[TidyTuesday: Feb 9, 2021]{.portfolio}](posts/imgs/portfolio/viz/lifeWealth.png){fig-alt="words"}](https://github.com/carobuck/tidyTuesday/blob/main/20210209_lifetimeWealth.md)
-
+:::
+::: {layout="[30,-5,30,-5,30]"} 
 [![[TidyTuesday: Feb 23, 2021]{.portfolio}](posts/imgs/portfolio/viz/employstatus.png){fig-alt="words"}](https://github.com/carobuck/tidyTuesday/blob/main/20210223_employmentstatus.Rmd)
 
 [![[]{.portfolio}](posts/imgs/portfolio/viz/moreviz.png){fig-alt="image says 'more coming soon'"}]()
