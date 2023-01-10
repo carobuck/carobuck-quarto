@@ -1,5 +1,7 @@
 ---
 title: ""
+execute:
+  freeze: auto 
 ---
 ::: {.column-screen}
 ![](posts/imgs/banner.png){fig-alt="a hand-drawn banner of confetti"}

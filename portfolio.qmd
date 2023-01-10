@@ -1,6 +1,8 @@
 ---
 title: "Portfolio"
 toc: true
+execute:
+  freeze: auto 
 ---
 
 ### Creative Tech
