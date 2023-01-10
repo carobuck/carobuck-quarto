@@ -4,6 +4,8 @@ listing:
   contents: posts
   type: default
   sort: date desc
+execute:
+  freeze: auto 
 ---
 
 ::: {.column-screen}

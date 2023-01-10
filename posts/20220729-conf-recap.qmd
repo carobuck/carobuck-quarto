@@ -1,6 +1,8 @@
 ---
 title: "RStudio::conf(2022) Recap"
 date: '2022-07-29'
+execute:
+  freeze: auto 
 ---
 
 ::: {layout="[55,45]"}

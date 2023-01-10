@@ -5,6 +5,8 @@ description: |
 author:
   - name: Caro Buck
 date: 2022-03-15
+execute:
+  freeze: auto 
 ---
 
 ::: {.column-margin}

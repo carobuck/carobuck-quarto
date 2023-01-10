@@ -6,6 +6,8 @@ author:
   - name: Caro Buck
     url: https://example.com/norajones
 date: 2022-01-10
+execute:
+  freeze: auto 
 ---
 
 

@@ -5,6 +5,8 @@ author: "Caro Buck"
 format: html
 draft: true
 toc: true
+execute:
+  freeze: auto 
 ---
 
 Why is it important to talk to people about data? Great question, I'd love to tell you.

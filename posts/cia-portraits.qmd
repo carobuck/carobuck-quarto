@@ -4,8 +4,9 @@ description: |
   A celebration of what makes us unique as individuals within a team.
 author:
   - name: Caro Buck
-    url: https://example.com/norajones
 date: 2021-11-30
+execute:
+  freeze: auto 
 ---
 
 

@@ -2,6 +2,8 @@
 title: "Preparing to speak at rstudio::conf"
 format: html
 draft: true
+execute:
+  freeze: auto 
 ---
 
 ## THINGS I LEARNED
