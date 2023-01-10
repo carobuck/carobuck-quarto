@@ -3,6 +3,7 @@ title: "DS Salary Analysis"
 author: "Caro Buck"
 date: "2/22/2022"
 output: html_document
+draft: true
 ---
 
 Notes on setup/python installation [here](https://rstudio.github.io/reticulate/articles/python_packages.html).
