@@ -57,9 +57,9 @@ You might be wondering what all the gray lines are- those show my journey throug
 Some of my favorite stories, places and people that made my heart sing in 2022:
 
 ::: {layout="[[1,1], [1], [1,1], [1,1,1]]"}
-![[Attending, and presenting, at rstudio::conf for the first time]{.portfolio}](posts/imgs/2022_recap/rconf.jpg){fig-alt="young woman standing in front of backdrop covered with R package hex logos. She looks very excited to be there."}
-
 ![[Something I never thought I'd do- bike 200+ miles in 2 days]{.portfolio}](posts/imgs/2022_recap/stp.jpg){fig-alt="4 young adults, 1 woman and 3 men, posing with their bikes after a long bike ride."}
+
+![[Attending, and presenting, at rstudio::conf for the first time]{.portfolio}](posts/imgs/2022_recap/rconf.jpg){fig-alt="young woman standing in front of backdrop covered with R package hex logos. She looks very excited to be there."}
 
 ![[Spanish sunsets are sublime]{.portfolio}](posts/imgs/2022_recap/sagaro.jpg){fig-alt="Panoramic sunset view of the water and beach in S'Agaro Spain"}
 
@@ -74,7 +74,7 @@ Some of my favorite stories, places and people that made my heart sing in 2022:
 ![[May your cup overfloweth in 2023 with laughter and zest]{.portfolio}](posts/imgs/2022_recap/ice.mp4){fig-alt="video of woman pouring & spilling ice over a full glass"}
 :::
 
-To each and every person who contributed to my life's laugh counts and made life in 2022 a bit more exciting, hilarious and marvelously complex. Ty. 
+To each and every person who contributed to my life's laugh counts and made life in 2022 a bit more exciting, hilarious and marvelously complex: ty. 
 
 Inspired to go live your own story now? To live a life that tells a good story? Check out one of my [all-time favorite books](https://www.goodreads.com/book/show/1999475.A_Million_Miles_in_a_Thousand_Years) that got me started.
 
