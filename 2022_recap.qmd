@@ -1,0 +1,81 @@
+---
+title: "2022: a year full of stories"
+format: html
+theme: styles.scss
+execute:
+  echo: false
+  warning: false
+  freeze: auto 
+---
+::: {.column-page}
+
+Stories. Every day is made up of hundreds of them (both monumental and mundane), and often they fly by without a second thought. In 2022, I decided that I wanted to live to tell a good life story, meaning that I had to do things that would lead to good stories. 
+
+So, where did my story take me in 2022? Let's explore...
+
+```{r}
+#| fig-cap: "*Scroll to zoom, double click to reset. Bigger dots == more visits.*"
+#| fig-alt: "A connected, interactive scatterplot that shows all the places Caro visited in 2022."
+library(tidyverse)
+library(plotly)
+all_places_clean <- read_csv('/Users/caroline.buck/Desktop/Fun_R/recap_2022/all_places_clean.csv')
+all_places_clean %>%
+  group_by(address) %>%
+  mutate(num_visits = n()) %>%
+  rename(Place=name) %>%
+  select(-startTimestamp) %>%
+  ggplot(aes(x=longitudeE7,y=latitudeE7,label=Place)) +
+  geom_path(data = all_places_clean %>% 
+              rename(Place=name) %>%
+              arrange(startTimestamp),
+            aes(x=longitudeE7,y=latitudeE7),color='gray') +
+  geom_point(aes(fill=state,size=num_visits),color='black',shape=21) +
+  theme_minimal() +
+  theme(axis.title = element_blank(),
+        axis.text = element_blank(),
+        panel.grid = element_blank()) +
+  scale_size(guide = 'none') +
+  scale_fill_discrete(name='') -> p
+plotly::ggplotly(p,tooltip = c("label")) %>% plotly::config(scrollZoom=TRUE)
+```
+:::
+
+You might be wondering what all the gray lines are- those show my journey through all of these places, from January 1st to December 31st. And it was going to be a neat animation... but... things didn't quite work as I expected and I'm not going to let perfect stand in the way of good, especially when one of my goals for 2023 is to write and publish more. So this is the start of the story. Stay tuned for more. 
+
+2022 by the numbers:
+
+* 3 weddings (bridesmaid in 2)
+* 1 funeral
+* 15 flights
+* 1 broken bone (tailbone, oof)
+* 5 countries
+* 9 states (technically AZ, but Google thought I was just in NV)
+* 2,777 photos and videos taken (probably more, because I occasionally go through and delete the garbage ones)
+* Lots of friends, new and old: This year also saw me move across the country (from Seattle to Cambridge, in my most chaotic move yet), and I realized just how extroverted I am as a human in making new friends in a new city
+
+
+Some of my favorite stories, places and people that made my heart sing in 2022:
+
+::: {layout="[[1,1], [1], [1,1], [1,1,1]]"}
+![[Attending, and presenting, at rstudio::conf for the first time]{.portfolio}](posts/imgs/2022_recap/rconf.jpg){fig-alt="young woman standing in front of backdrop covered with R package hex logos. She looks very excited to be there."}
+
+![[Something I never thought I'd do- bike 200+ miles in 2 days]{.portfolio}](posts/imgs/2022_recap/stp.jpg){fig-alt="4 young adults, 1 woman and 3 men, posing with their bikes after a long bike ride."}
+
+![[Spanish sunsets are sublime]{.portfolio}](posts/imgs/2022_recap/sagaro.jpg){fig-alt="Panoramic sunset view of the water and beach in S'Agaro Spain"}
+
+![[C u later, Seattle friends!]{.portfolio}](posts/imgs/2022_recap/culater.jpg){fig-alt="Silly group photo of lots of friends"}
+
+![[Frolidays with new MA friends]{.portfolio}](posts/imgs/2022_recap/frolidays.jpg){fig-alt="Silly group photo of lots of friends"}
+
+![[Hands down, swimming in the Mediterranean was my favorite solo story]{.portfolio}](posts/imgs/2022_recap/sea.jpg){fig-alt="A picture of blue-grean Mediterranean sea, with rocks and plants in an inlet"}
+
+![[La Sagrada Familia, aka my favorite building of 2022]{.portfolio}](posts/imgs/2022_recap/sagrada.jpg){fig-alt="Picture of interior of La Sagrada Familia, with soaring ceilings and light streaming in through colored stained glass windows."}
+
+![[May your cup overfloweth in 2023 with laughter and zest]{.portfolio}](posts/imgs/2022_recap/ice.mp4){fig-alt="video of woman pouring & spilling ice over a full glass"}
+:::
+
+To each and every person who contributed to my life's laugh counts and made life in 2022 a bit more exciting, hilarious and marvelously complex. Ty. 
+
+Inspired to go live your own story now? To live a life that tells a good story? Check out one of my [all-time favorite books](https://www.goodreads.com/book/show/1999475.A_Million_Miles_in_a_Thousand_Years) that got me started.
+
+And remember, as they always say, *a good time or a good story!*
