@@ -32,7 +32,7 @@ execute:
 
 [![[Microsite for B+ERG]{.portfolio}](posts/imgs/portfolio/earthrise.png){fig-alt="words"}]()
 
-[![[My sister wrote a book, I helped format and edit it.]{.portfolio}](posts/imgs/portfolio/restricted_files.png){fig-alt="image with book title: the restricted files."}](https://restricted-files.netlify.app/)
+[![[My sister wrote a book, I helped format and edit it. (under construction)]{.portfolio}](posts/imgs/portfolio/restricted_files.png){fig-alt="image with book title: the restricted files."}](https://restricted-files.netlify.app/)
 :::
 
 ### Visualizations
