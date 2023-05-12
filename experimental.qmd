@@ -9,4 +9,5 @@ execute:
 :::
 
 ### An experimental dumping ground for my random ideas
-Stay tuned for more to come!
+</br>
+One of my goals for this year is to learn more about front end development. To that end, here's a link to my [tinkering site](https://caro-test-react.vercel.app/). </br> *(To note: this site is likely hideous at least 80% of the time, and may or may not work.* BUT! *I am putting it here as a way to hold myself accountable to actually work on it.)*

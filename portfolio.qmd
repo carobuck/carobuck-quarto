@@ -10,7 +10,7 @@ execute:
 ::: {layout-ncol=2}
 
 :::{.div .portfolio}
-[![[Sherwin-Williams Speaking in Color]{.bold}](posts/imgs/portfolio/sic.png){fig-alt="words"}](https://speakingincolor.app/)
+[![[Sherwin-Williams: Speaking in Color]{.bold}](posts/imgs/portfolio/sic.png){fig-alt="App logo that says Speaking In Color: Think it, Say it, See it. On top of green and blue background"}](https://speakingincolor.app/)
 
 * Converting words to colors to data and back again
 * [2022 Cannes Lions Winner: Creative B2B (Grand Prix, Silver) & Digital Craft (Bronze)](https://www.wundermanthompson.com/news/grand-prix-for-speaking-in-color){.portfolio}
@@ -22,6 +22,20 @@ execute:
 * Disease modeling and data visualizations
 * [2022 LIA Bronze Award: Health & Wellness Creative Use of Data](https://www.liaentries.com/winners/?id_entry=106428&id_medium=28&id_submedium=80&id_category=0&view=details&range=f&page=8&keyword=&medium=28,31&category=&award=b&country=&title_brand=&credits=&company_name=&city=&proceed_simple_search=false&proceed_advanced_search=true){.portfolio}
 * [MM+M Silver Award: Global Campaign 2022](https://www.mmm-online.com/mmm-awards/global-campaign-2022/){.portfolio}
+:::
+
+:::{.div .portfolio}
+[![[AIran]{.bold}](posts/imgs/portfolio/airan.png){fig-alt="collage editorial style image that includes faces of two women and maps of Iran, overlayed with text that reads: So what will define the future history of Iran?"}](https://www.rewriteiran.com/)
+
+* A history book from the future, written by AI, that tells the dire future of women's rights in Iran if we don't do anything today to make a change
+* Created in partnership with the [Iran Democracy Council](https://irandemocracycouncil.com/){.portfolio}
+:::
+
+:::{.div .portfolio}
+[![[Hungerstation: Subconscious Order]{.bold}](posts/imgs/portfolio/hungerstation.png){fig-alt="words"}](https://findmycraving.com/)
+
+* Tap into your subconscious to find out what you're really in the mood to eat
+* [2023 Dubai Lynx Winner: Mobile (Grand Prix) and Digital (Silver)](https://www.wundermanthompson.com/news/grand-prix-for-speaking-in-color){.portfolio}
 :::
 :::
 
