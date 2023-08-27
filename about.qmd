@@ -18,15 +18,15 @@ execute:
 
 ### Howdy, I'm Caro (short for Caroline)! 
 
-I'm a curious and creative human, with a passion for data of all sorts. I love wrangling unconventional data, or using a visualization to build understanding and promote data literacy.
+I'm a curious and creative human, with a passion for data of all sorts. I love wrangling unconventional data, or using a visualization to build understanding and promote data literacy. I'm a pro at building backend data apps, am learning frontend, and write some mean documentation.
 
-I have worked on a wide variety of client projects, from AI-generated graffiti and time series modeling to advanced analytics and data visualization. I thrive in environments where data, curiosity, creativity and rabbit holes are encouraged.
+I have worked on a wide variety of client projects; from AI-generated graffiti and time series modeling to advanced analytics and data visualization. I thrive in environments where curiosity, creativity and rabbit holes are encouraged.
 
-In my spare time, you’ll probably find me outside: either biking fast, wandering the neighborhood or playing Spikeball.
+Outside of work, you’ll find me swimming, sailing, swing dancing, or leading a tour around downtown Boston- come along for a stroll to be inundated with fun facts!
 
 ### Experience
 
-**Data Scientist** | *Global Creative Data Team, Wunderman Thompson* | June 2018 - Present
+**Senior Data Scientist** | *Global Creative Data Team, Wunderman Thompson* 
 
 **Private Math Tutor** 
 
@@ -34,14 +34,14 @@ R | Python | Quarto | Flask | GCP
 
 ### Education
 
-**B.S. Applied Mathematics + CS Minor** | *Seatte Pacific University* | 2014 - 2018
+**B.S. Applied Mathematics + Computer Science Minor** | *Seatte Pacific University* | 2014 - 2018
 
 </br>
 *Want to talk more? Give a holler!*
 
+<a href="https://carobuck.com/resume" class="btn btn-outline-info"><i class="bi bi-stars"></i> Resume</a>
 <a href="https://www.linkedin.com/in/caro-buck/" class="btn btn-outline-info"><i class="bi bi-linkedin"></i> LinkedIn</a>
 <a href="https://github.com/carobuck" class="btn btn-outline-info"><i class="bi bi-github"></i> GitHub</a>
-<a href="https://twitter.com/caroissilly" class="btn btn-outline-info"><i class="bi bi-twitter"></i> Twitter</a>
 
 :::
 :::
