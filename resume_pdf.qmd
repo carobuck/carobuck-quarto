@@ -4,14 +4,9 @@ toc: false
 fontsize: medium
 linkcolor: '#212322'
 css: resume_styles.css
-execute:
-  freeze: auto 
+format: pdf
 ---
-::: {.column-screen}
-![](posts/imgs/banner.png){fig-alt="a hand-drawn banner of confetti"}
-:::
 
-::: {.column-screen-inset}
 
 ### **Caroline Buck**
 
@@ -20,11 +15,9 @@ execute:
 [carobuck.com](https://carobuck.com/) </br>
 [caro@carobuck.com](mailto:caro@carobuck.com) </br>
 *Python* | *R* | *Quarto* | *Flask* | *GCP* | *JS* </br></br>
-I'm a curious and creative human, with a passion for data of all sorts. I love wrangling unconventional data, or using a visualization to build understanding and promote data literacy. I'm a pro at building backend data apps, am learning frontend, and write some mean documentation.
+I'm a curious and creative human, with a passion for data of all sorts. I love wrangling unconventional data, or using a visualization to build understanding and promote data literacy.
 
-I have worked on a wide variety of client projects; from AI-generated graffiti and time series modeling to advanced analytics and data visualization. I thrive in environments where curiosity, creativity and rabbit holes are encouraged.
-
-Outside of work, you’ll find me swimming, sailing, swing dancing, or leading a tour around Boston- come along for a stroll to be inundated with fun facts!
+I have worked on a wide variety of client projects, from AI-generated graffiti and time series modeling to advanced analytics and data visualization. I thrive in environments where data, curiosity, creativity and rabbit holes are encouraged.
 </br>
 
 #### Education
@@ -60,10 +53,10 @@ Outside of work, you’ll find me swimming, sailing, swing dancing, or leading a
 
 ::: {.div .important}
 * Collaborate with teammates to build interactive web apps that push the boundaries of creative data technology
-* Build backend "data magic" to support a wide variety of apps, such as: AI-generated graffiti, color analysis, gaze tracking, disease modeling, text generation
+* Build backend "data magic" to support a wide variety of apps, such as: AI-generated graffiti, color analysis, gaze tracking, disease modeling, poetry generation
 * Incorporate a variety of data sources to address client needs and questions
 * Tools include: R (tidyverse, tidymodels), Python (Pandas, CLIP+VQGAN, Flask, NLTK, spaCy), SQL, GPT-3, Google Cloud Platform (Firebase), git, Quarto, JavaScript
-* Member of EarthRise, Wunderman Thompson's Sustainability B+ERG (lead for 4 years)
+* Actively lead EarthRise, Wunderman Thompson's Sustainability B+ERG	
 :::
 
 **Senior Analyst, Data Scientist** (previously Data Analyst) | Aug 2019-Jan 2022
@@ -93,9 +86,4 @@ Outside of work, you’ll find me swimming, sailing, swing dancing, or leading a
 :::
 
 :::
-:::
-:::
-
-::: {.column-screen}
-![](posts/imgs/banner.png){fig-alt="a hand-drawn banner of confetti"}
 :::

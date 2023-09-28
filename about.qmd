@@ -34,7 +34,7 @@ R | Python | Quarto | Flask | GCP
 
 ### Education
 
-**B.S. Applied Mathematics + Computer Science Minor** | *Seatte Pacific University* | 2014 - 2018
+**B.S. Applied Mathematics + Computer Science Minor** | *Seattle Pacific University* | 2014 - 2018
 
 </br>
 *Want to talk more? Give a holler!*
