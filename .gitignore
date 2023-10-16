@@ -5,3 +5,6 @@
 /.quarto/
 
 .DS_Store
+.RData
+_freeze/
+_site/

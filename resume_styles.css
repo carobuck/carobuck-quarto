@@ -5,3 +5,11 @@
 .illustration {
   border: 1px solid rgb(230, 230, 230); 
 }
+
+.gradresume {
+  font-size: x-large;
+}
+
+.gradresumebullets {
+  font-size: large;
+}

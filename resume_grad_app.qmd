@@ -6,17 +6,18 @@ linkcolor: '#212322'
 css: resume_styles.css
 execute:
   freeze: auto 
+draft: true
 ---
-::: {.column-screen}
-![](posts/imgs/banner.png){fig-alt="a hand-drawn banner of confetti"}
-:::
 
 ::: {.column-screen-inset}
 
-### **Caroline Buck**
-
-::: {layout="[50,50]"}
+::: {layout="[10,38,-3,49]"}
 ::: {.div}
+![](posts/imgs/banner_vertical.png){fig-alt="a hand-drawn banner of confetti"}
+:::
+
+## **Caroline Buck**
+::: {.div .gradresume}
 [carobuck.com](https://carobuck.com/) </br>
 [caro@carobuck.com](mailto:caro@carobuck.com) </br>
 *Python* | *R* | *Quarto* | *Flask* | *GCP* | *JS* </br></br>
@@ -25,38 +26,39 @@ I'm a curious and creative human, with a passion for data of all sorts. I love w
 I have worked on a wide variety of client projects; from AI-generated graffiti and time series modeling to advanced analytics and data visualization. I thrive in environments where curiosity, creativity and rabbit holes are encouraged.
 
 Outside of work, you’ll find me swimming, sailing, swing dancing, or leading a tour around Boston- come along for a stroll to be inundated with fun facts!
-</br>
+</br></br>
 
-#### Education
+### Education
 
-**B.S. Applied Mathematics + CS Minor** | *Seattle Pacific University* | 2014 - 2018
+**B.S. Applied Mathematics + Minor in Computer Science** | *Seattle Pacific University* | 2014 - 2018
 
-::: {.div .important}
+::: {.div .gradresumebullets}
 * Graduated Summa Cum Laude	
 * Ranked Meritorious Winner in Interdisciplinary Contest in Modeling (Jan 2017)	
 * Ranked Honorable Mention in Mathematical Contest in Modeling (Jan 2016, Jan 2018)				
 :::
+</br>
 
-#### Other Experiences + Hobbies
+### Other Experiences + Hobbies
 
 **City Tour Guide** | *Boston By Foot*<br/>
 **Masters Swimmer** | *Tech Masters Swimming*<br/>
-**Math Tutor and TA**	| *Seattle Pacific University & Private Tutor*<br/>
 **Youth Group Leader** | *Bethany Community Church*<br/>
 **Guest Services** | *Community Dinners*
 
-*Want to talk more? Give a holler!*
+
 :::
 
-::: {.div}
+::: {.div .gradresume}
+</br>
 
-#### Experience
+### Experience
 
 **Senior Data Scientist** | Jan 2022-Present
 
 *Wunderman Thompson Global Creative Data Group*
 
-::: {.div .important}
+::: {.div .gradresumebullets}
 * Collaborate with teammates to build interactive web apps that push the boundaries of creative data technology
 * Build backend "data magic" to support a wide variety of apps, such as: AI-generated graffiti, color analysis, gaze tracking, disease modeling, text generation
 * Incorporate a variety of data sources to address client needs and questions
@@ -69,7 +71,7 @@ Outside of work, you’ll find me swimming, sailing, swing dancing, or leading a
 
 *Wunderman Thompson Seattle*
 
-::: {.div .important}
+::: {.div .gradresumebullets}
 * Forecast key business metrics after establishing, and documenting, an improved modeling process
 * Create a variety of unique and informative visualizations to communicate data insights effectively
 * Explore audience segmentation to drive insights, inform strategic direction and inspire creative campaigns
@@ -83,7 +85,7 @@ Outside of work, you’ll find me swimming, sailing, swing dancing, or leading a
 
 *Possible Seattle*
 
-::: {.div .important}
+::: {.div .gradresumebullets}
 * Design and develop reports based on CRM and web data
 * Build new data ETL process for storing CRM data	
 * Audit web performance for engagement and pathing behavior	
@@ -91,10 +93,17 @@ Outside of work, you’ll find me swimming, sailing, swing dancing, or leading a
 * Tools include: Adobe Analytics, Excel, PowerPoint, R, ggplot2, Python 			
 :::
 
+**Math Tutor and Teaching Assistant** | Mar 2015-May 2022
+
+*Seattle Pacific University & Private Tutor*
+
+::: {.div .gradresumebullets}
+* Aid students' growth and development of mathematical ability and confidence
+* Grade quizzes and homework for numerous math classes (including statistics, algebra, and calculus)
+* Work as an in-class teaching assistant and group tutor to answer students' questions and build understanding
+:::
+
 :::
 :::
 :::
 
-::: {.column-screen}
-![](posts/imgs/banner.png){fig-alt="a hand-drawn banner of confetti"}
-:::
