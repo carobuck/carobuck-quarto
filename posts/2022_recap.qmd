@@ -1,7 +1,10 @@
 ---
 title: "2022: a year full of stories"
-format: html
-theme: styles.scss
+description: |
+  A good time or a good story
+author:
+  - name: Caro Buck
+date: 2023-01-11
 execute:
   echo: false
   warning: false
@@ -12,6 +15,7 @@ execute:
 Stories. Every day is made up of hundreds of them (both monumental and mundane), and often they fly by without a second thought. In 2022, I decided that I wanted to live to tell a good life story, meaning that I had to do things that would lead to good stories. 
 
 So, where did my story take me in 2022? Let's explore...
+
 
 ```{r}
 #| fig-cap: "*Scroll to zoom, double click to reset. Bigger dots == more visits.*"
@@ -40,6 +44,7 @@ plotly::ggplotly(p,tooltip = c("label")) %>% plotly::config(scrollZoom=TRUE)
 ```
 :::
 
+
 You might be wondering what all the gray lines are- those show my journey through all of these places, from January 1st to December 31st. And it was going to be a neat animation... but... things didn't quite work as I expected and I'm not going to let perfect stand in the way of good, especially when one of my goals for 2023 is to write and publish more. So this is the start of the story. Stay tuned for more. 
 
 2022 by the numbers:
@@ -57,21 +62,21 @@ You might be wondering what all the gray lines are- those show my journey throug
 Some of my favorite stories, places and people that made my heart sing in 2022:
 
 ::: {layout="[[1,1], [1], [1,1], [1,1,1]]"}
-![[Something I never thought I'd do- bike 200+ miles in 2 days]{.portfolio}](posts/imgs/2022_recap/stp.jpg){fig-alt="4 young adults, 1 woman and 3 men, posing with their bikes after a long bike ride."}
+![[Something I never thought I'd do- bike 200+ miles in 2 days]{.portfolio}](imgs/2022_recap/stp.jpg){fig-alt="4 young adults, 1 woman and 3 men, posing with their bikes after a long bike ride."}
 
-![[Attending, and presenting, at rstudio::conf for the first time]{.portfolio}](posts/imgs/2022_recap/rconf.jpg){fig-alt="young woman standing in front of backdrop covered with R package hex logos. She looks very excited to be there."}
+![[Attending, and presenting, at rstudio::conf for the first time]{.portfolio}](imgs/2022_recap/rconf.jpg){fig-alt="young woman standing in front of backdrop covered with R package hex logos. She looks very excited to be there."}
 
-![[Spanish sunsets are sublime]{.portfolio}](posts/imgs/2022_recap/sagaro.jpg){fig-alt="Panoramic sunset view of the water and beach in S'Agaro Spain"}
+![[Spanish sunsets are sublime]{.portfolio}](imgs/2022_recap/sagaro.jpg){fig-alt="Panoramic sunset view of the water and beach in S'Agaro Spain"}
 
-![[C u later, Seattle friends!]{.portfolio}](posts/imgs/2022_recap/culater.jpg){fig-alt="Silly group photo of lots of friends"}
+![[C u later, Seattle friends!]{.portfolio}](imgs/2022_recap/culater.jpg){fig-alt="Silly group photo of lots of friends"}
 
-![[Frolidays with new MA friends]{.portfolio}](posts/imgs/2022_recap/frolidays.jpg){fig-alt="Silly group photo of lots of friends"}
+![[Frolidays with new MA friends]{.portfolio}](imgs/2022_recap/frolidays.jpg){fig-alt="Silly group photo of lots of friends"}
 
-![[Hands down, swimming in the Mediterranean was my favorite solo story]{.portfolio}](posts/imgs/2022_recap/sea.jpg){fig-alt="A picture of blue-grean Mediterranean sea, with rocks and plants in an inlet"}
+![[Hands down, swimming in the Mediterranean was my favorite solo story]{.portfolio}](imgs/2022_recap/sea.jpg){fig-alt="A picture of blue-grean Mediterranean sea, with rocks and plants in an inlet"}
 
-![[La Sagrada Familia, aka my favorite building of 2022]{.portfolio}](posts/imgs/2022_recap/sagrada.jpg){fig-alt="Picture of interior of La Sagrada Familia, with soaring ceilings and light streaming in through colored stained glass windows."}
+![[La Sagrada Familia, aka my favorite building of 2022]{.portfolio}](imgs/2022_recap/sagrada.jpg){fig-alt="Picture of interior of La Sagrada Familia, with soaring ceilings and light streaming in through colored stained glass windows."}
 
-![[May your cup overfloweth in 2023 with laughter and zest]{.portfolio}](posts/imgs/2022_recap/ice.mp4){fig-alt="video of woman pouring & spilling ice over a full glass"}
+![[May your cup overfloweth in 2023 with laughter and zest]{.portfolio}](imgs/2022_recap/ice.mp4){fig-alt="video of woman pouring & spilling ice over a full glass"}
 :::
 
 To each and every person who contributed to my life's laugh counts and made life in 2022 a bit more exciting, hilarious and marvelously complex: ty. 

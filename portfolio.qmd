@@ -55,7 +55,7 @@ execute:
 
 ::: {layout="[30,-5,30,-5,30]"}
 
-[![[My 2022 Recap]{.portfolio}](posts/imgs/portfolio/viz/recap.png){fig-alt="A connected scatterplot that shows all the places Caro visited in 2022."}](https://carobuck.com/2022_recap)
+[![[My 2022 Recap]{.portfolio}](posts/imgs/portfolio/viz/recap.png){fig-alt="A connected scatterplot that shows all the places Caro visited in 2022."}](https://carobuck.com/posts/2022_recap.html)
 
 [![[Data Portraits @ Work]{.portfolio}](posts/imgs/ported_imgs/cia-portrait.png){fig-alt="data portraits, one for each member of my team. Each portrait is colorful rectangle with abstract shapes/doodles"}](https://carobuck.com/posts/cia-portraits.html)
 
@@ -79,6 +79,6 @@ execute:
 
 [![[TidyTuesday: Feb 23, 2021]{.portfolio}](posts/imgs/portfolio/viz/employstatus.png){fig-alt="words"}](https://github.com/carobuck/tidyTuesday/blob/main/20210223_employmentstatus.Rmd)
 
-[![[]{.portfolio}](posts/imgs/portfolio/viz/moreviz.png){fig-alt="image says 'more coming soon'"}]()
+![[]{.portfolio}](posts/imgs/portfolio/viz/moreviz.png){fig-alt="image says 'more coming soon'"}
 
 :::

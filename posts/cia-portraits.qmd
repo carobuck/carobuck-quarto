@@ -14,9 +14,9 @@ execute:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-A few months into the COVID-19 pandemic, I was still optimistic about returning to the office in person and was inspired my lots of data portraits I was seeing around the web (particularly those from [Giorgia Lupi](http://giorgialupi.com/data-portraits-at-ted2017)).
+A few months into the COVID-19 pandemic, I was still optimistic about returning to the office in person and was inspired by lots of data portraits I was seeing around the web (particularly those from [Giorgia Lupi](http://giorgialupi.com/data-portraits-at-ted2017)).
 
-As a result, I decided to poll my coworkers, take a more hands on approach to data viz that I don't typically get to do in my day-to-day job and make some desk signs/personalized portraits for the team. My favorite part in sharing these with the team was having people guess whose was whose!
+As a result, I decided to poll my coworkers, took a more hands on approach to data viz that I don't typically get to do in my day-to-day job and made some desk signs/personalized portraits for the team. My favorite part in sharing these with the team was having people guess whose was whose!
 
 ![data portraits, one for each member of my team](imgs/ported_imgs/cia-portrait.png)
 

@@ -18,7 +18,7 @@ execute:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-One week, I decided to track every time I laughed. Turns out, perhaps unsurprisingly, if you know me in real life, I laugh a lot so this was a bit harder than I thought it would be.
+One week, I decided to track every time I laughed. Turns out (perhaps unsurprisingly, if you know me in real life), I laugh a lot so this was a bit harder than I thought it would be.
 
 #### Things I learned: 
 

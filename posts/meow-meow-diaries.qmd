@@ -14,7 +14,7 @@ execute:
 ![One of my favorite photos of Meows, that sums up well how we feel without Mick around.](imgs/meows_blinds.jpg){fig-alt="A photo of a cat stuck in the window blinds, turning to look over her shoulder with a pothos plant in the foreground."}
 :::
 
-My (previous) roommate Mick has a cat, coined Meow Meow. Mick went out of town a few times while we lived together, leaving me in charge of Meows. I decided I needed a new side project, so I decided to log my interactions with Meow Meow. Maybe one day I'll turn this into some sort of interesting data journalism piece, but in the meantime, enjoy my ramblings below as proof of why I need human interaction.
+My (previous) roommate Mick has a cat, coined Meow Meow. Mick went out of town a few times while we lived together, leaving me in charge of Meows. I decided I needed a new side project, so I logged my interactions with Meow Meow. Maybe one day I'll turn this into some sort of interesting data journalism piece, but in the meantime, enjoy my ramblings below as proof of why I need human interaction.
 
 
 

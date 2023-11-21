@@ -1,5 +1,7 @@
 ---
 title: "RStudio::conf(2022) Recap"
+author:
+  - name: Caro Buck
 date: '2022-07-29'
 execute:
   freeze: auto 
@@ -11,7 +13,7 @@ WOW. WOW. WOWOW.
 </br></br>
 That's all I can say for my first (and last^[Last not because I wouldn't recommend or anything like that...but because next time it'll be Posit::conf()! ]) RStudio::conf() experience. It was a surreal, exciting and dreamy time getting to not only attend, but also speak at, the conference. I met lots of folks, made some data friends (shout out to everyone who said hi and/or was willing to answer my questions), and for the first time was surrounded by so many people who were just as pumped about data as I am.
 
-I've found the online R (and data) community to be rather welcoming and open to questions. Even so, I was pleasantly surprised to see the extent of that kindness overflow into real life interactions with people IRL- it was so easy to strike up conversation with "strangers" and the atmosphere lent itself well to curiosity. One of the "rules" announced in the first keynote was to always leave space for Pacman's mouth in a group- to leave enough space for anyone to wander up and join the conversation without feeling weird. The level of inclusivity and openness this tiny little action brought was amazing!
+I've found the online R (and data) community to be rather welcoming and open to questions. Even so, I was pleasantly surprised to see the extent of that kindness overflow into real life interactions with people- it was so easy to strike up conversation with "strangers" and the atmosphere lent itself well to curiosity. One of the "rules" announced in the first keynote was to always leave space for Pacman's mouth in a group- to leave enough space for anyone to wander up and join the conversation without feeling weird. The level of inclusivity and openness this tiny little action brought was amazing!
 :::
 ::: {.div}
 </br></br></br>
