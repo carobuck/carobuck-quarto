@@ -43,9 +43,9 @@ execute:
 ### Quarto Projects
 
 ::: {layout="[30,-5,30,-5,30]"}
-[![[Party Invitation]{.portfolio}](posts/imgs/portfolio/FROLIDAYS_2022_sm.png){fig-alt="words"}](https://frolidays.netlify.app/)
+[![[Party Invitation]{.portfolio}](posts/imgs/portfolio/frolitea.png){fig-alt="screenshot of invitation to a holiday party, with an image of the Boston tea party"}](https://frolitea-spectacular.netlify.app/)
 
-[![[Microsite for B+ERG]{.portfolio}](posts/imgs/portfolio/earthrise.png){fig-alt="words"}]()
+[![[Party Invitation]{.portfolio}](posts/imgs/portfolio/FROLIDAYS_2022_sm.png){fig-alt="hand drawn graphic saying 'frolidays holiday spectacular"}](https://frolidays.netlify.app/)
 
 [![[My sister wrote a book, I helped format and edit it. (under construction)]{.portfolio}](posts/imgs/portfolio/restricted_files.png){fig-alt="image with book title: the restricted files."}](https://restricted-files.netlify.app/)
 :::
