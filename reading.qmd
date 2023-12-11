@@ -10,9 +10,9 @@ toc: false
 ::: {.column-page-inset}
 # Books I've Read
 
-I've always liked to read (growing up, I took a book everywhere, much to my mother's chagrin when she'd have to sit in silence driving me around whilst I read), but now I keep proper track of what I'm reading. 
+Growing up, I took a book everywhere, much to my mother's annoyance when she'd have to sit in silence driving me around while I read. Nowadays, I still read just as much, but I keep proper track of what I'm reading. 
 
-See what I've been reading below- and give a holler if you want my hot take thoughts on any of the books. If you have a book you think I should read, suggest it [here](https://forms.gle/bphDyhxd4HZL6NmAA). 
+See what I've been reading below -- and give a holler if you want my hot take thoughts on any of the books. If you have a book you think I should read, please [suggest it](https://forms.gle/bphDyhxd4HZL6NmAA). 
 
 ```{r, echo=FALSE}
 #| warning: false
@@ -24,6 +24,6 @@ books_read |>
   dplyr::mutate(`Date Completed` = lubridate::as_date(`Date Completed`)) |>
   dplyr::arrange(desc(`Date Completed`)) |>
   dplyr::select(c(`Date Completed`,Title,Author)) |>
-  knitr::kable(caption='Note: Books completed in 2019 did not have great tracking, so date is approximate')
+  knitr::kable(caption='*Note: Books completed in 2019 did not have great tracking, so date is approximate and author might be missing.*')
 ```
 :::

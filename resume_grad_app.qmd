@@ -13,7 +13,7 @@ draft: true
 
 ::: {layout="[10,38,-3,49]"}
 ::: {.div}
-![](posts/imgs/banner_vertical.png){fig-alt="a hand-drawn banner of confetti"}
+![](pics/banner_vertical.png){fig-alt="a hand-drawn banner of confetti"}
 :::
 
 ## **Caroline Buck**

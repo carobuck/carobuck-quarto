@@ -7,32 +7,31 @@ execute:
 ![](posts/imgs/banner.png){fig-alt="a hand-drawn banner of confetti"}
 :::
 
-::: {.column-screen-inset}
+::: {.column-page}
 
 ::: {layout="[40,60]"}
 
 ::: {.div}
-![](posts/imgs/ported_imgs/caro-headshot.jpg){fig-alt="a hand-drawn banner of confetti"}
+</br>
+![](posts/imgs/ported_imgs/caro-headshot.jpg){fig-alt="professional headshot photo of Caroline. She is wearing a black and white print shirt, has curly blonde/red hair and is smiling."}
 :::
 ::: {.div}
 
-### Howdy, I'm Caro (short for Caroline)! 
+### Howdy, I'm Caro, short for Caroline! 
 
-I’m a curious and creative human, with a passion for data of all sorts. I love wrangling unconventional data or using a visualization to foster understanding and promote data literacy. I’m a pro at building backend data apps, write some mean documentation, and am learning frontend.
-
-I have worked on a wide variety of client projects, from AI-generated graffiti and time series modeling, to advanced analytics and data visualization. I thrive in environments where curiosity, creativity and rabbit holes are encouraged.
-
-In my free time, you’ll find me swimming, sailing, swing dancing, or leading a tour around downtown Boston – come along for a stroll to be inundated with fun facts!
-
-### Experience
-
-**Senior Data Scientist** | *Global Creative Data Team, Wunderman Thompson* 
+**Data Science Lead** | *Global Creative Data Team, Wunderman Thompson* 
 
 **Private Math Tutor** 
 
-R | Python | Quarto | Flask | GCP
+R | Python | Quarto | Flask | JS | GCP
 
-### Education
+*****
+
+I’m a curious and creative human, with a passion for data of all sorts. I love wrangling unconventional data or using a visualization to foster understanding and promote data literacy. I’m a pro at building backend data apps, write some mean documentation, and am learning frontend. </br></br>
+I have worked on a wide variety of client projects, from AI-generated graffiti and time series modeling, to advanced analytics and data visualization. I thrive in environments where curiosity, creativity and rabbit holes are encouraged. </br></br>
+In my free time, you’ll find me swimming, sailing, swing dancing, or leading a tour around downtown Boston – come along for a stroll to be inundated with fun facts!
+
+*****
 
 **B.S. Applied Mathematics + Computer Science Minor** | *Seattle Pacific University* | 2014 - 2018
 
@@ -48,6 +47,4 @@ R | Python | Quarto | Flask | GCP
 *Wondering why a data party? If you know me, you know the keys to my heart are themed parties, good group photos and data of all shapes, sizes and flavors.*
 :::
 
-::: {.column-screen}
-![](posts/imgs/banner.png){fig-alt="a hand-drawn banner of confetti"}
-:::
+

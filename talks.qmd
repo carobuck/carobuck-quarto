@@ -8,15 +8,18 @@ execute:
 ![](posts/imgs/banner.png){fig-alt="a hand-drawn banner of confetti"}
 :::
 
-## RStudio::conf(2022)
-**The Benefit of Talking to the "Non-Datas"**
+## rstudio::conf(2022)
+**The Benefit of Talking to the "Non-Datas"**</br>
+*Data literacy is a tool to build understanding -- of the world and ourselves. Data, AI, and technology are sometimes portrayed as scary and unknowable; however, data can be for everyone. Data, and decisions based off data, have enormous implications in our daily lives. We (data practitioners) likely have some baseline understanding of numbers and how to read a chart. But others, whether our friends, family members or coworkers, might not have the same level of understanding.*
 
-Slides available [here](https://rconf-2022-caro-buck.netlify.app/#/section), Github repo that powers the slides available [here](https://github.com/carobuck/rconf-talk-2022-slides), and video recording available [here](https://www.rstudio.com/conference/2022/talks/benefit-of-talking-to-non-datas/)!
+*This talk will address how to talk to these seemingly "non-data" people, the benefits of talking data with them, and (hopefully) encourage more curiosity and wonder at the creativity of data. We will also briefly cover what data literacy is and why we ought to care about it.*
+
+[Slides](https://rconf-2022-caro-buck.netlify.app/#/section), [Github repository that powers the slides](https://github.com/carobuck/rconf-talk-2022-slides), and [video recording](https://www.rstudio.com/conference/2022/talks/benefit-of-talking-to-non-datas/) are all available!
 
 
 ## I-COM Summit Experience 
-**Johnson & Johnson + Nicorette Hackathon Finalist Presentation**
+**Johnson & Johnson + Nicorette Hackathon Finalist Presentation**</br>
+*Presentation summarizes previous hackathon work, reviews creative ads, and analyzes campaign performance.*
 
-Slides available [here](https://github.com/carobuck/icom-hackathon-2021)
+[Slides](https://github.com/carobuck/icom-hackathon-2021) are available.
 
-Video recording coming soon!
