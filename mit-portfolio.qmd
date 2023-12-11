@@ -4,11 +4,12 @@ toc: false
 navbar: false
 ---
 
+::: {.column-screen-inset}
+[[View portfolio online (carobuck.com/mit-portfolio) for best quality]{.viewonline}](https://carobuck.com/mit-portfolio)
+:::
 ::: {.column-screen}
 ![](grad_port_pics/banner.png){fig-alt="a hand-drawn banner of confetti"}
 :::
-
-
 
 ::: {.column-page-inset}
 
