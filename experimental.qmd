@@ -9,5 +9,9 @@ execute:
 :::
 
 ### An experimental dumping ground for my random ideas
-</br>
+
+February 2024: I'm going to sea for a month and have made a [logs site](https://seabuck.netlify.app/) for that adventure. Essentially, I've signed myself up to throw things off the side of a ship in all weather and at all hours. The things we do for a good story. Follow along for more details, photos, and sea fun facts.
+
+----
+
 One of my goals for this year is to learn more about front end development. To that end, here's a link to my [tinkering site](https://caro-test-react.vercel.app/). </br> </br> *Note: this site is likely hideous at least 80% of the time, and may or may not work.* BUT! *I believe in the importance of authenticity, sharing works in progress before they're "perfect", and want to hold myself accountable to keep exploring and learning new things.*
