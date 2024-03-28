@@ -43,9 +43,9 @@ execute:
 ### Quarto Projects
 
 ::: {layout="[30,-5,30,-5,30]"}
-[![[Party Invitation]{.portfolio}](posts/imgs/portfolio/frolitea.png){fig-alt="screenshot of invitation to a holiday party, with an image of the Boston tea party"}](https://frolitea-spectacular.netlify.app/)
+[![[Seabuck: Logs from my month at sea]{.portfolio}](posts/imgs/portfolio/seabuck.jpg){fig-alt="Image of four people smiling, one of whom (caro) is holding up a lantern fish with tweezers."}](https://seabuck.netlify.app/)
 
-[![[Party Invitation]{.portfolio}](posts/imgs/portfolio/FROLIDAYS_2022_sm.png){fig-alt="hand drawn graphic saying 'frolidays holiday spectacular"}](https://frolidays.netlify.app/)
+[![[Party Invitation]{.portfolio}](posts/imgs/portfolio/frolitea.png){fig-alt="screenshot of invitation to a holiday party, with an image of the Boston tea party"}](https://frolitea-spectacular.netlify.app/)
 
 [![[My sister wrote a book, I helped format and edit it. (under construction)]{.portfolio}](posts/imgs/portfolio/restricted_files.png){fig-alt="image with book title: the restricted files."}](https://restricted-files.netlify.app/)
 :::
