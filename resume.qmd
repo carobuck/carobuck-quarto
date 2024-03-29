@@ -54,7 +54,7 @@ In my free time, you’ll find me swimming, sailing, swing dancing, or leading a
 
 **Data Science Lead** (promoted from Sr Data Scientist) | Jan 2022-Present
 
-*Wunderman Thompson Global Creative Data Group*
+*VML Global Creative Data Group (previously Wunderman Thompson)*
 
 ::: {.div .important}
 * Collaborate with teammates to build interactive web apps that push the boundaries of creative data technology
