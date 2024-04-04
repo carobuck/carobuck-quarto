@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500&family=Zilla+Slab&display=swap');
+
+// Fonts
+$font-family-monospace: "Roboto Condensed", sans-serif;
+$font-family-sans-serif: "Raleway";
+$font-family-serif: "Zilla Slab";
+
+
+// Base document colors
+$body-bg: #FFFFFF;
+$body-color: #212322;
+$link-color: #17D1D8;
+$navbar-bg: #002B36;
+
+.important {
+  font-size: small;
+}
+
+.illustration {
+  border: 1px solid rgb(230, 230, 230); 
+}
+
+.gradresume {
+  font-size: x-large;
+}
+
+.gradresumebullets {
+  font-size: large;
+}
+.playfair{
+  font-family: 'Playfair Display', serif;  
+  color: #045A7E;// #012B36;
+}
+.gradportfolio {
+  color: #6a6b6e;
+  font-family: "Zilla Slab";//"Poppins";//"Alice";
+  font-size: medium;
+  font-weight: 300;
+  
+}
