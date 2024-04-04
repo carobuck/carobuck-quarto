@@ -19,7 +19,7 @@ execute:
 ::: {.div}
 [carobuck.com](https://carobuck.com/) </br>
 [caro@carobuck.com](mailto:caro@carobuck.com) </br>
-*Python* | *R* | *Quarto* | *Flask* | *GCP* | *JS* </br></br>
+*R* | *Python* | *Quarto* | *Flask* | *GCP* | *JS* </br></br>
 I’m a curious and creative human, with a passion for data of all sorts. I love wrangling unconventional data or using a visualization to foster understanding and promote data literacy. I’m a pro at building backend data apps, write some mean documentation, and am learning frontend.
 
 I have worked on a wide variety of client projects, from AI-generated graffiti and time series modeling, to advanced analytics and data visualization. I thrive in environments where curiosity, creativity and rabbit holes are encouraged.
