@@ -41,6 +41,7 @@ In my free time, you’ll find me swimming, sailing, swing dancing, or leading a
 
 **City Tour Guide** | *Boston By Foot*<br/>
 **Masters Swimmer** | *Tech Masters Swimming*<br/>
+**At-Sea Zooplankton Researcher** | *Scripps Institution of Oceanography*<br/>
 **Math Tutor and TA**	| *Seattle Pacific University & Private Tutor*<br/>
 **Youth Group Leader** | *Bethany Community Church*<br/>
 **Guest Services** | *Community Dinners*
@@ -54,7 +55,7 @@ In my free time, you’ll find me swimming, sailing, swing dancing, or leading a
 
 **Data Science Lead** (promoted from Sr Data Scientist) | Jan 2022-Present
 
-*Wunderman Thompson Global Creative Data Group*
+*VML Global Creative Data Group (previously Wunderman Thompson)*
 
 ::: {.div .important}
 * Collaborate with teammates to build interactive web apps that push the boundaries of creative data technology
