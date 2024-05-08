@@ -1,6 +1,9 @@
 project:
   type: website
 
+execute:
+  freeze: auto
+  
 website:
   title: "Data Parties"
   #subtitle: "(and other things I won't shut up about)"
