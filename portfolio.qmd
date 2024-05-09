@@ -18,7 +18,7 @@ execute:
 :::
 
 :::{.div .portfolio}
-[![[Honda: Scenic Audio]{.bold}](posts/imgs/portfolio/scenicaudio.png){fig-alt="logo for project that says 'scenic audio' with wavy lines behind it. Honda logo above scenic audio logo"}](https://www.scenicaudio.app/experience)
+[![[Honda: Scenic Audio]{.bold}](posts/imgs/portfolio/scenicaudio.png){fig-alt="logo for project that says 'scenic audio' with wavy lines behind it. Honda logo above scenic audio logo"}](https://www.scenicaudio.info/)
 
 * Use realtime data and AI to describe road trip scenery and attractions for those with low- or no-vision
 * Try the non-driving version [here](https://www.scenicaudio.app/experience){.portfolio}
