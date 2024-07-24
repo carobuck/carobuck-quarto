@@ -1,10 +1,11 @@
+posts/all_places_clean.csv
 *.Rproj
+.Rprofile
 .Rhistory
 .Rproj.user/
-
 /.quarto/
-
 .DS_Store
 .RData
 _freeze/
 _site/
+.secrets
