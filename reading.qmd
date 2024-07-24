@@ -16,10 +16,6 @@ See what I've been reading below -- and give a holler if you want my hot take th
 
 
 ```{r, echo=FALSE}
-#install.packages("knitr")
-#install.packages("rmarkdown")
-```
-```{r, echo=FALSE}
 #| warning: false
 
 googlesheets4::gs4_deauth()
