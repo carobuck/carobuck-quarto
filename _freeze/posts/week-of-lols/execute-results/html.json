@@ -1,0 +1,16 @@
+{
+  "hash": "4388b4fe81759f0766f3845da741c58d",
+  "result": {
+    "markdown": "---\ntitle: \"week-of-lols\"\ndescription: |\n  Things I learned while keeping track of everything I laughed at for a week.\nauthor:\n  - name: Caro Buck\n    url: https://example.com/norajones\ndate: 2022-01-10\noutput:\n  distill::distill_article:\n    self_contained: false\nexecute:\n  freeze: auto \n---\n\n\n\n\nOne week, I decided to track every time I laughed. Turns out (perhaps unsurprisingly, if you know me in real life), I laugh a lot so this was a bit harder than I thought it would be.\n\n#### Things I learned: \n\n* Appreciate the small things- if I hadn't written this stuff down, I probably wouldn't have remembered my roommate talking about vacuuming the ceiling as her excuse to get out of Zoom meetings. Life is about the little stuff just as much as the big. \n* Taking note to actually remember all the tiny, good things makes them pile up in a way that helps balance out the less good stuff in a hard week. \n* I tend to laugh to ease conversation (I found this was the case with coworkers a lot)\n* I have different \"flavors\" of laughter, depending on the context/situation. My favorite kind is where I simply Can. Not. Stop. Laughing. In fact, I go silent I'm laughing so hard.\n* Some of the stuff that makes me laugh is really not that funny. \n\nI like working with this kind of \"small data\" that's more personal, because it's unique and allows me to craft a story creatively, without necessarily needing to strictly abide by all the data visualization \"rules\" (I can lean more towards the art than the science of data).\n\nMaybe this'll inspire you to collect your own laughter (or at least cherish the joy in the moment)! Cheers!\n\n![The final visualization: a multitude of colorful hand-drawn symbols in a grid](imgs/ported_imgs/lol_viz.jpg)\n\n![The corresponding legend](imgs/ported_imgs/lol_legend.jpg)\n\n![Behind the scenes: a glimpse into my thought process for arranging the data to tell my story](imgs/ported_imgs/lol_bts.jpg)",
+    "supporting": [
+      "week-of-lols_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

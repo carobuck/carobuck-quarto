@@ -5,9 +5,25 @@ execute:
   freeze: auto 
 ---
 
-### Creative Tech
 
-::: {layout-ncol=2}
+### Creative Technology
+
+::: {layout-ncol=3}
+
+:::{.div .portfolio}
+[![[Bruna Tavares: Colorfeel]{.bold}](posts/imgs/portfolio/colorfeel.png){fig-alt="App logo that says Colorfeel by Bruna Tavares. A pink, circular, eye-inspired graphic is above the text."}](https://www.colorfeel.app/)
+
+* A tool to help low- and no-vision people select makeup to fit their skin tone, mood, and style
+* Use AI to meticulously craft more compelling color descriptions for makeup shades based on non-visual cues (such as textures, temperatures, flavors, etc.)
+:::
+
+:::{.div .portfolio}
+[![[Honda: Scenic Audio]{.bold}](posts/imgs/portfolio/scenicaudio.png){fig-alt="logo for project that says 'scenic audio' with wavy lines behind it. Honda logo above scenic audio logo"}](https://www.scenicaudio.info/)
+
+* Use realtime data and AI to describe road trip scenery and attractions for those with low- or no-vision
+* Try the non-driving version [here](https://www.scenicaudio.app/experience){.portfolio}
+* Featured in [BBC TopGear](https://www.topgear.com/car-news/tech/honda-creates-app-help-blind-occupants-see-out-car-window){.portfolio}
+:::
 
 :::{.div .portfolio}
 [![[Sherwin-Williams: Speaking in Color]{.bold}](posts/imgs/portfolio/sic.png){fig-alt="App logo that says Speaking In Color: Think it, Say it, See it. On top of green and blue background"}](https://speakingincolor.app/)

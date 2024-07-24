@@ -6,6 +6,6 @@ posts/all_places_clean.csv
 /.quarto/
 .DS_Store
 .RData
-_freeze/
 _site/
-.secrets
+/.quarto/
+/_site/
