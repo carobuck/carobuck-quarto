@@ -17,15 +17,6 @@ See what I've been reading below -- and give a holler if you want my hot take th
 ```{r, echo=FALSE}
 #| warning: false
 
-# NOTE: getting warnings of cached tokens, maybe deal with that explicitly here: https://gargle.r-lib.org/articles/non-interactive-auth.html
-#library(googlesheets4)
-#gs4_auth(email = TRUE)
-#options(
-#  gargle_oauth_cache = ".secrets",
- # gargle_oauth_email = "cbuck717@gmail.com"
-#)
-#library(googlesheets4)
-
 googlesheets4::gs4_deauth()
 
 # Use a getOption to pull BOOK_LOG var from .Rprofile file (and just don't commit it)
