@@ -19,7 +19,7 @@ jobs:
 
       - run: |
           Rscript -e "install.packages('rmarkdown')"
-          Rscript -e "install.packages('knitr')"
+          Rscript -e "install.packages('googlesheets4')"
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
