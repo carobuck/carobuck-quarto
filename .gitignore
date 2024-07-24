@@ -9,3 +9,4 @@ posts/all_places_clean.csv
 _site/
 /.quarto/
 /_site/
+_freeze/
