@@ -13,25 +13,3 @@ toc: false
 Growing up, I took a book everywhere, much to my mother's annoyance when she'd have to sit in silence driving me around while I read. Nowadays, I still read just as much, but I keep proper track of what I'm reading. 
 
 See what I've been reading below -- and give a holler if you want my hot take thoughts on any of the books. If you have a book you think I should read, please [suggest it](https://forms.gle/bphDyhxd4HZL6NmAA). 
-
-```{r}
-install.packages("knitr")
-install.packages("rmarkdown")
-```
-```{r, echo=FALSE}
-#| warning: false
-
-googlesheets4::gs4_deauth()
-
-# Use a getOption to pull BOOK_LOG var from .Rprofile file (and just don't commit it)
-sheet <- getOption("BOOK_LOG")
-books_read <- googlesheets4::read_sheet(sheet)
-#books_read <- googlesheets4::read_sheet('https://docs.google.com/spreadsheets/d/1Gi6fonQAa5Md71xMNGMVMz-lSdjBvD3IkDff1pmXpfI/')
-books_read |>
-  #filter(`Date Completed` != '2019') %>%
-  dplyr::mutate(`Date Completed` = lubridate::as_date(`Date Completed`)) |>
-  dplyr::arrange(desc(`Date Completed`)) |>
-  dplyr::select(c(`Date Completed`,Title,Author)) |>
-  knitr::kable(caption='*Note: Books completed in 2019 did not have great tracking, so date is approximate and author might be missing.*')
-```
-:::
