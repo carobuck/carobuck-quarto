@@ -17,10 +17,9 @@ jobs:
         with:
           r-version: 4.4.1
 
-      - name: Install R packages
-        run: 
-          install.packages('rmarkdown')
-          install.packages('knitr')
+      - run: |
+          Rscript -e "install.packages('rmarkdown')"
+          Rscript -e "install.packages('knitr')"
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
