@@ -14,6 +14,10 @@ Growing up, I took a book everywhere, much to my mother's annoyance when she'd h
 
 See what I've been reading below -- and give a holler if you want my hot take thoughts on any of the books. If you have a book you think I should read, please [suggest it](https://forms.gle/bphDyhxd4HZL6NmAA). 
 
+```{r}
+#install.packages("knitr")
+#install.packages("rmarkdown")
+```
 ```{r, echo=FALSE}
 #| warning: false
 
