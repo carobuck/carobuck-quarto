@@ -17,9 +17,9 @@ jobs:
         with:
           r-version: 4.4.1
 
-      - run: |
-          Rscript -e "install.packages('rmarkdown')"
-          Rscript -e "install.packages('googlesheets4')"
+      - name: Install R packages
+        run: |
+          Rscript -e "install.packages(c('rmarkdown', 'knitr', 'curl', 'httr', 'gargle', 'googledrive', 'googlesheets4'))"
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
