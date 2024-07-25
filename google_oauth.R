@@ -23,3 +23,8 @@ drive_find(n_max = 5)
 # a bit annoying to have gone through all the gargle/o-auth stuff and it doesn't work (could get it to work locally but not in quarto preview for some reason)
 # adding the book log url as a github secret so it's not as easily readable/findable
 # https://stackoverflow.com/questions/56224610/storing-and-retrieving-oauth-token-used-by-api-package-rprofile-vs-renviron
+
+
+# using renv to make a renv.lock file to fix gh issue?? for quarto publish?? having loads of issues w/ gh action and idk why
+renv::snapshot()
+
