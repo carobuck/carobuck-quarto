@@ -42,6 +42,8 @@ Show sev projects on mini portfolio pg. Give them website if we don't get thru t
 * rendered to html while i was working on it so i could see immediate changes; rendered to docx for final to share w/ team since they didn't code (and a shareable word docx was easier to edit and collaborate across; I could gather all the feedback in one doc, then incorporate back in my data/code)
 * useful to have this QC doc with summary tables; made it really easy to drop tables/summarised data into final report deck b/c I could format the tables exactly how I wanted them with flextable, render to docx, then copy/paste whole table in (I considered rendering to slides directly, but quarto support to slides isn't as good for ppt and it was easier to do docx for formatting purposes. our client decks had some pretty heavy custom creative formatting that was harder to replicate via code - not worth the effort given how many other people touched these. reports weren't at a place to be automated quite yet, despite how much I wanted to automate the whole process b/c hella manual. )
 * TODO: NEED TO MAKE A FAKE VERSION OF THE DATA? OR TRY TO, SO I CAN RENDER TO A WORD DOC/HTML TO SHOW PEOPLE WHAT IT WOULD HAVE LOOKED LIKE. 
+* script to make fake Data -- shows how I think about data/building a dataset. and can wrangle data in R lol
+* qmd live (html) and qmd version
 
 ### Manneken Pis: Oddball Data Visualization
 * web dev, asking questions - building prototype vs real thing and what data I collected at beginning to prove concept vs what I'd collect later to build out more of a story. (Once I'd seen prelim data and then would want to dive deeper in a particular direction). 
