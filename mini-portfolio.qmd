@@ -1,0 +1,73 @@
+---
+title: "Data, Creative & Tech Work Samples"
+toc: false
+execute:
+  freeze: auto 
+---
+
+----
+
+*purpose of interview: For context, the technical interview will not include a coding element. Instead, it will focus on your technical problem-solving skills and processes. To prepare, please be ready to discuss examples of your work and explain them not just to a stakeholder but to a technical peer.*
+
+top things from JD:
+data management best-practices and well-versed in storytelling with data
+clearly documented + good communication
+of Python or R for data analysis and pipeline development
+
+Use for project technic interview.
+Show sev projects on mini portfolio pg. Give them website if we don't get thru them all/if they wanna come back and look. Ask if they wanna start anywhere bc these projects are mixed bag and highlight diff skills. 
+
+----
+
+:::{.div .portfolio}
+
+::: {layout="[[-10,32,-10,32,-10],[-1],[32,-2,32,-2,32]]"}
+
+[![[Quarto for Data Validation & Collaboration]{.bold}](posts/imgs/ported_imgs/cia-portrait.png){fig-alt="data portraits, one for each member of my team. Each portrait is colorful rectangle with abstract shapes/doodles"}](https://carobuck.com/mini-portfolio.html#quarto-for-data-validation-collaboration)
+
+[![[Manneken Pis: Oddball Data Visualization]{.bold}](posts/imgs/ported_imgs/cia-portrait.png){fig-alt="data portraits, one for each member of my team. Each portrait is colorful rectangle with abstract shapes/doodles"}](https://carobuck.com/mini-portfolio.html#manneken-pis-oddball-data-visualization)
+
+[![[Data Portraits @ Work]{.bold}](posts/imgs/ported_imgs/cia-portrait.png){fig-alt="data portraits, one for each member of my team. Each portrait is colorful rectangle with abstract shapes/doodles"}](https://carobuck.com/mini-portfolio.html#data-portraits-work)
+
+[![[Bruna Tavares: Colorfeel]{.bold}](posts/imgs/portfolio/colorfeel.png){fig-alt="App logo that says Colorfeel by Bruna Tavares. A pink, circular, eye-inspired graphic is above the text."}](https://carobuck.com/mini-portfolio.html#bruna-tavares-colorfeel)
+
+[![[Seabuck: Logs from my month at sea]{.bold}](posts/imgs/portfolio/seabuck.jpg){fig-alt="Image of four people smiling, one of whom (caro) is holding up a lantern fish with tweezers."}](https://carobuck.com/mini-portfolio.html#seabuck-logs-from-my-month-at-sea)
+
+:::
+
+----
+
+### Quarto for Data Validation & Collaboration
+* Metro qmd for checking data. Word doc bc easier for everyone to comment on. Then could copy/paste code to other qmd to render as clean formatted tables. This wasn't the final output, but was a lot easier to drop these into slides in collaborative fashion, esp with other people who didn't code. Made it easy collab doc with word doc comments. And was easy to replicate all the tables once I got the formatting sorted for one (note, I'm sure there are ways I could've made a custom theme... Could be something to explore in the future if I did something like this again)
+* rendered to html while i was working on it so i could see immediate changes; rendered to docx for final to share w/ team since they didn't code (and a shareable word docx was easier to edit and collaborate across; I could gather all the feedback in one doc, then incorporate back in my data/code)
+* useful to have this QC doc with summary tables; made it really easy to drop tables/summarised data into final report deck b/c I could format the tables exactly how I wanted them with flextable, render to docx, then copy/paste whole table in (I considered rendering to slides directly, but quarto support to slides isn't as good for ppt and it was easier to do docx for formatting purposes. our client decks had some pretty heavy custom creative formatting that was harder to replicate via code - not worth the effort given how many other people touched these. reports weren't at a place to be automated quite yet, despite how much I wanted to automate the whole process b/c hella manual. )
+* TODO: NEED TO MAKE A FAKE VERSION OF THE DATA? OR TRY TO, SO I CAN RENDER TO A WORD DOC/HTML TO SHOW PEOPLE WHAT IT WOULD HAVE LOOKED LIKE. 
+
+### Manneken Pis: Oddball Data Visualization
+* web dev, asking questions - building prototype vs real thing and what data I collected at beginning to prove concept vs what I'd collect later to build out more of a story. (Once I'd seen prelim data and then would want to dive deeper in a particular direction). 
+* Maybe work on this one to show first vizzes and then some more interesting/well thought out vizzes??? Idk if makes sense to do work to show work. But I need some examples of data viz, not just data work. -- review their job posting again to see what projects best fit the role 
+* [GitHub repository](https://github.com/carobuck/manneken-pis/tree/main)
+
+### Data Portraits @ Work
+* Data portraits: creative data viz, how I collect data, how it connects us/helps us understand each other in diff way. I designed survey too. This one was much more creative focused since data aren't that complicated. Trickiest was figuring out how to represent everything in aesthetically pleasing way without running out of colors (tried to limit my palette. Neat to see work like this I did a few yrs ago and what I would do diff /same now). Talk about impact this had on creative team (and my growth as a data person who wasn't just boring numbers and ppl would reach out to me with slightly wackier data ideas just to bounce ideas and see what's possible)
+* [See more about the portraits + legend](https://carobuck.com/posts/cia-portraits.html)
+
+### Bruna Tavares: Colorfeel
+* WT creative tech project - for python/backend/gcp work (can't show as much code but can do as technical a walkthrough as poss. docs, debugging live code, did back and front end to make handling data between the two smoother; debug accessibility bugs (screenreaders!!); debug language issues
+* A tool to help low- and no-vision people select makeup to fit their skin tone, mood, and style
+* Use AI to meticulously craft more compelling color descriptions for makeup shades based on non-visual cues (such as textures, temperatures, flavors, etc.)
+* [Try out Colorfeel](https://www.colorfeel.app/)
+
+### Seabuck: Logs from my month at sea
+* Seabuck: how I write/communicate and web dev and GitHub 
+* [Logs website](https://seabuck.netlify.app/)
+* [GitHub repository](https://github.com/carobuck/seabuck)
+* Proud of: deploying efficiently while out at sea (smaller img, gh action, google analytics to see where audience is); sci communication; how to tell a story, with a rapt (and varied) audience. humor, science, intelligent AND interesting way to tell a story. also excited b/c now I have a time capsule of a very unique time in my life. of trying something totally new. added more pages while out there (FAQ) 
+
+----
+
+:::
+
+
+
+
