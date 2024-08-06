@@ -23,9 +23,9 @@ Show sev projects on mini portfolio pg. Give them website if we don't get thru t
 
 ::: {layout="[[-10,32,-10,32,-10],[-1],[32,-2,32,-2,32]]"}
 
-[![[Quarto for Data Validation & Collaboration]{.bold}](posts/imgs/ported_imgs/cia-portrait.png){fig-alt="data portraits, one for each member of my team. Each portrait is colorful rectangle with abstract shapes/doodles"}](https://carobuck.com/mini-portfolio.html#quarto-for-data-validation-collaboration)
+[![[Quarto for Data Validation & Collaboration]{.bold}](posts/imgs/portfolio/qbr-qc.png){fig-alt="screenshot of a table listing some fake data"}](https://carobuck.com/mini-portfolio.html#quarto-for-data-validation-collaboration)
 
-[![[Manneken Pis: Oddball Data Visualization]{.bold}](posts/imgs/ported_imgs/cia-portrait.png){fig-alt="data portraits, one for each member of my team. Each portrait is colorful rectangle with abstract shapes/doodles"}](https://carobuck.com/mini-portfolio.html#manneken-pis-oddball-data-visualization)
+[![[Manneken Pis: Oddball Data Visualization]{.bold}](posts/imgs/portfolio/mannekenpis.jpeg){fig-alt="statue of manneken pis, a small metal sculpture of a boy peeing into a fountain below"}](https://carobuck.com/mini-portfolio.html#manneken-pis-oddball-data-visualization)
 
 [![[Data Portraits @ Work]{.bold}](posts/imgs/ported_imgs/cia-portrait.png){fig-alt="data portraits, one for each member of my team. Each portrait is colorful rectangle with abstract shapes/doodles"}](https://carobuck.com/mini-portfolio.html#data-portraits-work)
 
@@ -43,12 +43,14 @@ Show sev projects on mini portfolio pg. Give them website if we don't get thru t
 * useful to have this QC doc with summary tables; made it really easy to drop tables/summarised data into final report deck b/c I could format the tables exactly how I wanted them with flextable, render to docx, then copy/paste whole table in (I considered rendering to slides directly, but quarto support to slides isn't as good for ppt and it was easier to do docx for formatting purposes. our client decks had some pretty heavy custom creative formatting that was harder to replicate via code - not worth the effort given how many other people touched these. reports weren't at a place to be automated quite yet, despite how much I wanted to automate the whole process b/c hella manual. )
 * TODO: NEED TO MAKE A FAKE VERSION OF THE DATA? OR TRY TO, SO I CAN RENDER TO A WORD DOC/HTML TO SHOW PEOPLE WHAT IT WOULD HAVE LOOKED LIKE. 
 * script to make fake Data -- shows how I think about data/building a dataset. and can wrangle data in R lol
-* qmd live (html) and qmd version
+* [Live Quarto document](https://carobuck.com/qmd-qc-example/q1_qbr_qc.html) and [code repository](https://github.com/carobuck/carobuck-quarto/tree/master/qmd-qc-example)
 
 ### Manneken Pis: Oddball Data Visualization
 * web dev, asking questions - building prototype vs real thing and what data I collected at beginning to prove concept vs what I'd collect later to build out more of a story. (Once I'd seen prelim data and then would want to dive deeper in a particular direction). 
 * Maybe work on this one to show first vizzes and then some more interesting/well thought out vizzes??? Idk if makes sense to do work to show work. But I need some examples of data viz, not just data work. -- review their job posting again to see what projects best fit the role 
+* this is very much a prototype piece, proof of concept data viz, that allows us to poke at *something* and start to form more intelligent questions of where to dig next (now that we have some data to start with)
 * [GitHub repository](https://github.com/carobuck/manneken-pis/tree/main)
+* [Published Quarto doc](https://mannekenpis.netlify.app/)
 
 ### Data Portraits @ Work
 * Data portraits: creative data viz, how I collect data, how it connects us/helps us understand each other in diff way. I designed survey too. This one was much more creative focused since data aren't that complicated. Trickiest was figuring out how to represent everything in aesthetically pleasing way without running out of colors (tried to limit my palette. Neat to see work like this I did a few yrs ago and what I would do diff /same now). Talk about impact this had on creative team (and my growth as a data person who wasn't just boring numbers and ppl would reach out to me with slightly wackier data ideas just to bounce ideas and see what's possible)

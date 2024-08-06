@@ -11,6 +11,7 @@ prefer-html: true
 # NOTE: change to `format: docx` when rendering to share w/ team
 
 #| output: false
+#| warnings: false
 # some silencing code
 options(dplyr.summarise.inform = FALSE)
 options(tidyverse.quiet = TRUE)

@@ -8,6 +8,7 @@ website:
   title: "Data Parties"
   #subtitle: "(and other things I won't shut up about)"
   google-analytics: "G-WM3Q5HHPPE"
+  favicon: posts/imgs/sparkle.png
   navbar:
     right:
       - href: about.qmd
