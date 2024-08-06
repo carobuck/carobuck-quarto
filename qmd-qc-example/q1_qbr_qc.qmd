@@ -1,0 +1,413 @@
+---
+title: "Q1 QBR Data QC"
+format: html 
+execute:
+  echo: false
+  warnings: false
+prefer-html: true
+---
+
+```{r}
+# NOTE: change to `format: docx` when rendering to share w/ team
+
+#| output: false
+# some silencing code
+options(dplyr.summarise.inform = FALSE)
+options(tidyverse.quiet = TRUE)
+
+# setup and data wrangling
+library(tidyverse)
+library(flextable)
+
+# Original data wrangling, with Metro data
+#q1_2024 <- readxl::read_xlsx('q1_2024_qbr.xlsx',sheet='q1_2024_qbr') %>%
+#  full_join(readxl::read_xlsx('q1_2024_qbr.xlsx',sheet='campaign_key')) %>%
+  # remove all campaigns w/ all 0 data
+#  mutate(all_data = Sent + Delivered + Opens + `Total Clicks`) %>% filter(all_data != 0) %>% select(-all_data) 
+
+# Data wrangling w/ fake data for demo purposes
+q1_2024 <- read_csv('fake_qbr.csv')
+```
+
+#### Notes/FYI
+
+-   Pulled all Q1 and 2024 campaigns (using Quarter and Year cols) from Data Repository (pulled in some older campaigns w/ 0 data, see notes later to confirm if we are including in QBR)
+-   Using 'CampaignKey' tab (from Ben's xlsx) as source of truth for all clean campaign names, cadence, channel, categories. (Not using corresponding cols that were based on formula lookups in excel; there was lots of missing data bits)
+-   Will we need to break out anything by touch and/or segment? Need QC there?
+-   Caro still working on QoQ performance changes
+-   Caro still working on benchmarks: Rolling 6 month benchmarks will be using Q4 2023 and Q1 2024 data
+
+## List of all campaigns, by campaign category and clean campaign name
+
+Questions:
+
+-   Do we need to include any of the 'Other' campaigns? They look like service messages that could be excluded?
+-   Do these cleaned campaign names look correct? Can we combine touches and/or segments for the charts/tables? (in previous QBRs we have combined)
+-   Are these the correct buckets? ACP, Brand/Loyalty, Device, Enterprise, HSI, Onboarding, VAS/Revenue
+-   Correct campaigns in each bucket?
+
+Please fill in notes category with the correct category and/or clean campaign name if any of these need to be corrected.
+
+```{r}
+q1_2024 %>% 
+  select(Category_clean,`Clean Campaign Name`,JMID) %>%
+  filter(`Clean Campaign Name` %in% c(
+    'Anniversary',
+    'T Life Messaging',
+    'Samsung A7 Lite',
+    'Samsung A15',
+    'Pre2Post Ad Hoc',
+    'Pre2Post Recurring',
+    'HSI GW',
+    'HSI GW Promo',
+    'HSI Onboarding',
+    'HSI Voice Onboarding'
+  )) %>%
+  distinct() %>%
+  group_by(Category_clean,`Clean Campaign Name`,JMID) %>% 
+  mutate(Notes = '',JMID = as.character(JMID)) %>%
+  arrange(Category_clean,`Clean Campaign Name`) %>%
+  flextable::flextable() %>% 
+  flextable::fontsize(size = 10, part = "body") %>%
+  flextable::autofit() %>%
+  flextable::border_inner() %>%
+  flextable::border_outer() %>%
+  flextable::bold(part = 'header') %>%
+  flextable::bg(bg='goldenrod1',part='header')
+```
+
+## Performance by campaign category
+
+Questions:
+
+-   Does anything look odd here?
+-   Any deployment issues to call out?
+-   Missing anything?
+-   Do we need to include 'Other' campaigns? (Might all be service messages? See table/list above)
+
+```{r}
+q1_2024 %>% 
+  group_by(Category_clean) %>%
+  summarise(sent=scales::label_comma()(sum(Sent, na.rm = TRUE)),
+            delivered=scales::label_comma()(sum(Delivered, na.rm = TRUE)),
+            dr = scales::label_percent(accuracy = 0.1)(sum(Delivered,na.rm = TRUE)/sum(Sent, na.rm = TRUE)),
+            opens=scales::label_comma()(sum(Opens,na.rm = T)),
+            or=scales::label_percent(accuracy=.01)(sum(Opens,na.rm = T)/sum(Delivered,na.rm = T)),
+            clicks=scales::label_comma()(sum(`Total Clicks`, na.rm = TRUE)),
+            ctr = scales::label_percent(accuracy = 0.01)(sum(`Total Clicks`, na.rm = TRUE)/sum(Delivered, na.rm = TRUE)))%>%
+  mutate(Notes = '') %>%
+  flextable::flextable() %>% 
+  flextable::fontsize(size = 10, part = "body") %>%
+  flextable::autofit() %>%
+  flextable::border_inner() %>%
+  flextable::border_outer() %>%
+  flextable::bold(part = 'header') %>%
+  flextable::bg(bg='goldenrod1',part='header')
+```
+
+## Performance by cadence
+
+Questions:
+
+-   What should blanks be categorized as? Removed because they are service messages? (All campaigns missing Cadence are 'Other' category)
+-   Does anything look odd here?
+-   Any deployment issues to call out?
+-   Missing anything?
+
+```{r}
+q1_2024 %>% 
+  group_by(Cadence_clean) %>%
+  summarise(sent=scales::label_comma()(sum(Sent, na.rm = TRUE)),
+            delivered=scales::label_comma()(sum(Delivered, na.rm = TRUE)),
+            dr = scales::label_percent(accuracy = 0.1)(sum(Delivered,na.rm = TRUE)/sum(Sent, na.rm = TRUE)),
+            opens=scales::label_comma()(sum(Opens,na.rm = T)),
+            or=scales::label_percent(accuracy=.01)(sum(Opens,na.rm = T)/sum(Delivered,na.rm = T)),
+            clicks=scales::label_comma()(sum(`Total Clicks`, na.rm = TRUE)),
+            ctr = scales::label_percent(accuracy = 0.01)(sum(`Total Clicks`, na.rm = TRUE)/sum(Delivered, na.rm = TRUE)))%>%
+  mutate(Notes = '') %>%
+  flextable::flextable() %>% 
+  flextable::fontsize(size = 10, part = "body") %>%
+  flextable::autofit() %>%
+  flextable::border_inner() %>%
+  flextable::border_outer() %>%
+  flextable::bold(part = 'header') %>%
+  flextable::bg(bg='goldenrod1',part='header')
+```
+
+##### Campaigns missing cadence:
+
+Please fill in notes category with the correct cadence if any of these should be included. Or confirm that we are excluding all of these from the QBR.
+
+```{r}
+q1_2024 %>% 
+  filter(is.na(Cadence_clean)) %>%
+  select(Cadence_clean,`Clean Campaign Name`,Category_clean) %>%
+  distinct() %>%
+  mutate(Notes = '',
+         Cadence_clean = 'missing') %>%
+  flextable::flextable() %>% 
+  flextable::fontsize(size = 10, part = "body") %>%
+  flextable::autofit() %>%
+  flextable::border_inner() %>%
+  flextable::border_outer() %>%
+  flextable::bold(part = 'header') %>%
+  flextable::bg(bg='goldenrod1',part='header')
+```
+
+## Performance by channel
+
+Questions:
+
+-   Should 'Other' category campaigns be removed? Service messages?
+-   Does anything look odd here?
+-   Any deployment issues to call out?
+-   Missing anything?
+
+```{r}
+q1_2024 %>% 
+  mutate(is_other = if_else(Category_clean == 'Other','Other','')) %>%
+  group_by(is_other,Channel_clean) %>%
+  summarise(sent=scales::label_comma()(sum(Sent, na.rm = TRUE)),
+            delivered=scales::label_comma()(sum(Delivered, na.rm = TRUE)),
+            dr = scales::label_percent(accuracy = 0.1)(sum(Delivered,na.rm = TRUE)/sum(Sent, na.rm = TRUE)),
+            opens=scales::label_comma()(sum(Opens,na.rm = T)),
+            or=scales::label_percent(accuracy=.01)(sum(Opens,na.rm = T)/sum(Delivered,na.rm = T)),
+            clicks=scales::label_comma()(sum(`Total Clicks`, na.rm = TRUE)),
+            ctr = scales::label_percent(accuracy = 0.01)(sum(`Total Clicks`, na.rm = TRUE)/sum(Delivered, na.rm = TRUE)))%>%
+  mutate(Notes = '') %>%
+  flextable::flextable() %>% 
+  flextable::fontsize(size = 10, part = "body") %>%
+  flextable::autofit() %>%
+  flextable::border_inner() %>%
+  flextable::border_outer() %>%
+  flextable::bold(part = 'header') %>%
+  flextable::bg(bg='goldenrod1',part='header')
+```
+
+------------------------------------------------------------------------
+
+## More granular QC
+
+Now we're getting into performance by individual campaigns, grouped by bucket. There are many campaigns that were categorized as Q1 2024 campaigns but don't have any send/delivery/open/click data. Can we safely omit these from the QBR? Please indicate in appropriate Notes section if we *should* include a campaign with 0 data. Else I will remove all campaigns with 0 data.
+
+*Please make a note if anything looks unexpected and/or not right. Or should be excluded from the report.*
+
+------------------------------------------------------------------------
+
+#### Performance by Category: ACP
+
+```{r}
+q1_2024 %>% 
+  filter(Category_clean == 'ACP') %>%
+  group_by(`Clean Campaign Name`) %>%
+  summarise(sent=scales::label_comma()(sum(Sent, na.rm = TRUE)),
+            delivered=scales::label_comma()(sum(Delivered, na.rm = TRUE)),
+            dr = scales::label_percent(accuracy = 0.1)(sum(Delivered,na.rm = TRUE)/sum(Sent, na.rm = TRUE)),
+            opens=scales::label_comma()(sum(Opens,na.rm = T)),
+            or=scales::label_percent(accuracy=.01)(sum(Opens,na.rm = T)/sum(Delivered,na.rm = T)),
+            clicks=scales::label_comma()(sum(`Total Clicks`, na.rm = TRUE)),
+            ctr = scales::label_percent(accuracy = 0.01)(sum(`Total Clicks`, na.rm = TRUE)/sum(Delivered, na.rm = TRUE))) %>%
+  mutate(Notes = '') %>%
+  flextable::flextable() %>% 
+  flextable::fontsize(size = 10, part = "body") %>%
+  flextable::autofit() %>%
+  flextable::border_inner() %>%
+  flextable::border_outer() %>%
+  flextable::bold(part = 'header') %>%
+  flextable::bg(bg='goldenrod1',part='header')
+```
+
+#### Performance by Category: Brand/Loyalty
+
+Should 'T Life Messaging' campaign clicks be combined with another campaign? Odd to only have clicks.
+
+```{r}
+q1_2024 %>% 
+  filter(Category_clean == 'Brand/Loyalty') %>%
+  group_by(`Clean Campaign Name`) %>%
+  summarise(sent=scales::label_comma()(sum(Sent, na.rm = TRUE)),
+            delivered=scales::label_comma()(sum(Delivered, na.rm = TRUE)),
+            dr = scales::label_percent(accuracy = 0.1)(sum(Delivered,na.rm = TRUE)/sum(Sent, na.rm = TRUE)),
+            opens=scales::label_comma()(sum(Opens,na.rm = T)),
+            or=scales::label_percent(accuracy=.01)(sum(Opens,na.rm = T)/sum(Delivered,na.rm = T)),
+            clicks=scales::label_comma()(sum(`Total Clicks`, na.rm = TRUE)),
+            ctr = scales::label_percent(accuracy = 0.01)(sum(`Total Clicks`, na.rm = TRUE)/sum(Delivered, na.rm = TRUE))) %>%
+  mutate(Notes = '') %>%
+  flextable::flextable() %>% 
+  flextable::fontsize(size = 10, part = "body") %>%
+  flextable::autofit() %>%
+  flextable::border_inner() %>%
+  flextable::border_outer() %>%
+  flextable::bold(part = 'header') %>%
+  flextable::bg(bg='goldenrod1',part='header')
+```
+
+#### Performance by Category: Device
+
+```{r}
+q1_2024 %>% 
+  filter(Category_clean == 'Device') %>%
+  group_by(`Clean Campaign Name`) %>%
+  summarise(sent=scales::label_comma()(sum(Sent, na.rm = TRUE)),
+            delivered=scales::label_comma()(sum(Delivered, na.rm = TRUE)),
+            dr = scales::label_percent(accuracy = 0.1)(sum(Delivered,na.rm = TRUE)/sum(Sent, na.rm = TRUE)),
+            opens=scales::label_comma()(sum(Opens,na.rm = T)),
+            or=scales::label_percent(accuracy=.01)(sum(Opens,na.rm = T)/sum(Delivered,na.rm = T)),
+            clicks=scales::label_comma()(sum(`Total Clicks`, na.rm = TRUE)),
+            ctr = scales::label_percent(accuracy = 0.01)(sum(`Total Clicks`, na.rm = TRUE)/sum(Delivered, na.rm = TRUE))) %>%
+  mutate(Notes = '') %>%
+  flextable::flextable() %>% 
+  flextable::fontsize(size = 10, part = "body") %>%
+  flextable::autofit() %>%
+  flextable::border_inner() %>%
+  flextable::border_outer() %>%
+  flextable::bold(part = 'header') %>%
+  flextable::bg(bg='goldenrod1',part='header')
+```
+
+#### Performance by Category: Enterprise
+
+```{r}
+q1_2024 %>% 
+  filter(Category_clean == 'Enterprise') %>%
+  group_by(`Clean Campaign Name`) %>%
+  summarise(sent=scales::label_comma()(sum(Sent, na.rm = TRUE)),
+            delivered=scales::label_comma()(sum(Delivered, na.rm = TRUE)),
+            dr = scales::label_percent(accuracy = 0.1)(sum(Delivered,na.rm = TRUE)/sum(Sent, na.rm = TRUE)),
+            opens=scales::label_comma()(sum(Opens,na.rm = T)),
+            or=scales::label_percent(accuracy=.01)(sum(Opens,na.rm = T)/sum(Delivered,na.rm = T)),
+            clicks=scales::label_comma()(sum(`Total Clicks`, na.rm = TRUE)),
+            ctr = scales::label_percent(accuracy = 0.01)(sum(`Total Clicks`, na.rm = TRUE)/sum(Delivered, na.rm = TRUE))) %>%
+  mutate(Notes = '') %>%
+  flextable::flextable() %>% 
+  flextable::fontsize(size = 10, part = "body") %>%
+  flextable::autofit() %>%
+  flextable::border_inner() %>%
+  flextable::border_outer() %>%
+  flextable::bold(part = 'header') %>%
+  flextable::bg(bg='goldenrod1',part='header')
+```
+
+#### Performance by Category: HSI
+
+```{r}
+q1_2024 %>% 
+  filter(Category_clean == 'HSI') %>%
+  group_by(`Clean Campaign Name`) %>%
+  summarise(sent=scales::label_comma()(sum(Sent, na.rm = TRUE)),
+            delivered=scales::label_comma()(sum(Delivered, na.rm = TRUE)),
+            dr = scales::label_percent(accuracy = 0.1)(sum(Delivered,na.rm = TRUE)/sum(Sent, na.rm = TRUE)),
+            opens=scales::label_comma()(sum(Opens,na.rm = T)),
+            or=scales::label_percent(accuracy=.01)(sum(Opens,na.rm = T)/sum(Delivered,na.rm = T)),
+            clicks=scales::label_comma()(sum(`Total Clicks`, na.rm = TRUE)),
+            ctr = scales::label_percent(accuracy = 0.01)(sum(`Total Clicks`, na.rm = TRUE)/sum(Delivered, na.rm = TRUE))) %>%
+  mutate(Notes = '') %>%
+  flextable::flextable() %>% 
+  flextable::fontsize(size = 10, part = "body") %>%
+  flextable::autofit() %>%
+  flextable::border_inner() %>%
+  flextable::border_outer() %>%
+  flextable::bold(part = 'header') %>%
+  flextable::bg(bg='goldenrod1',part='header')
+```
+
+#### Performance by Category: Onboarding
+
+```{r}
+q1_2024 %>% 
+  filter(Category_clean == 'Onboarding') %>%
+  group_by(`Clean Campaign Name`) %>%
+  summarise(sent=scales::label_comma()(sum(Sent, na.rm = TRUE)),
+            delivered=scales::label_comma()(sum(Delivered, na.rm = TRUE)),
+            dr = scales::label_percent(accuracy = 0.1)(sum(Delivered,na.rm = TRUE)/sum(Sent, na.rm = TRUE)),
+            opens=scales::label_comma()(sum(Opens,na.rm = T)),
+            or=scales::label_percent(accuracy=.01)(sum(Opens,na.rm = T)/sum(Delivered,na.rm = T)),
+            clicks=scales::label_comma()(sum(`Total Clicks`, na.rm = TRUE)),
+            ctr = scales::label_percent(accuracy = 0.01)(sum(`Total Clicks`, na.rm = TRUE)/sum(Delivered, na.rm = TRUE))) %>%
+  mutate(Notes = '') %>%
+  flextable::flextable() %>% 
+  flextable::fontsize(size = 10, part = "body") %>%
+  flextable::autofit() %>%
+  flextable::border_inner() %>%
+  flextable::border_outer() %>%
+  flextable::bold(part = 'header') %>%
+  flextable::bg(bg='goldenrod1',part='header')
+```
+
+#### Performance by Category: VAS/Revenue
+
+```{r}
+q1_2024 %>% 
+  filter(Category_clean == 'VAS/Revenue') %>%
+  group_by(`Clean Campaign Name`) %>%
+  summarise(sent=scales::label_comma()(sum(Sent, na.rm = TRUE)),
+            delivered=scales::label_comma()(sum(Delivered, na.rm = TRUE)),
+            dr = scales::label_percent(accuracy = 0.1)(sum(Delivered,na.rm = TRUE)/sum(Sent, na.rm = TRUE)),
+            opens=scales::label_comma()(sum(Opens,na.rm = T)),
+            or=scales::label_percent(accuracy=.01)(sum(Opens,na.rm = T)/sum(Delivered,na.rm = T)),
+            clicks=scales::label_comma()(sum(`Total Clicks`, na.rm = TRUE)),
+            ctr = scales::label_percent(accuracy = 0.01)(sum(`Total Clicks`, na.rm = TRUE)/sum(Delivered, na.rm = TRUE))) %>%
+  mutate(Notes = '') %>%
+  flextable::flextable() %>% 
+  flextable::fontsize(size = 10, part = "body") %>%
+  flextable::autofit() %>%
+  flextable::border_inner() %>%
+  flextable::border_outer() %>%
+  flextable::bold(part = 'header') %>%
+  flextable::bg(bg='goldenrod1',part='header')
+```
+
+#### Performance by Category: Other
+
+These are probably service messages that shouldn't be included in QBR? Please confirm.
+
+```{r}
+q1_2024 %>% 
+  filter(Category_clean == 'Other') %>%
+  group_by(`Clean Campaign Name`) %>%
+  summarise(sent=scales::label_comma()(sum(Sent, na.rm = TRUE)),
+            delivered=scales::label_comma()(sum(Delivered, na.rm = TRUE)),
+            dr = scales::label_percent(accuracy = 0.1)(sum(Delivered,na.rm = TRUE)/sum(Sent, na.rm = TRUE)),
+            opens=scales::label_comma()(sum(Opens,na.rm = T)),
+            or=scales::label_percent(accuracy=.01)(sum(Opens,na.rm = T)/sum(Delivered,na.rm = T)),
+            clicks=scales::label_comma()(sum(`Total Clicks`, na.rm = TRUE)),
+            ctr = scales::label_percent(accuracy = 0.01)(sum(`Total Clicks`, na.rm = TRUE)/sum(Delivered, na.rm = TRUE))) %>%
+  mutate(Notes = '') %>%
+  flextable::flextable() %>% 
+  flextable::fontsize(size = 10, part = "body") %>%
+  flextable::autofit() %>%
+  flextable::border_inner() %>%
+  flextable::border_outer() %>%
+  flextable::bold(part = 'header') %>%
+  flextable::bg(bg='goldenrod1',part='header')
+```
+
+------------------------------------------------------------------------
+
+# Language (English vs Spanish)
+
+-   Are we including language breakout in QBR?
+-   May be able to categorize from `Action Code` (see table below). Is this valid? Or categorize with JMID or DLIST?
+-   If we are including language, please indicate appropriate language for any campaigns that are missing language, or are incorrect based on `Action Code`
+-   Note that some campaigns may be deleted from earlier QC, for having 0 data (e.g. Q4’23 ACP Awareness T1)
+
+```{r}
+q1_2024 %>% 
+  # remove campaigns w/ no data (may elim things w/ no action code)
+  mutate(all_data = Sent + Delivered + Opens + `Total Clicks`) %>% filter(all_data != 0) %>% select(-all_data) %>%
+  select(Category_clean,`Clean Campaign Name`,`Action Code`,JMID) %>%
+  distinct() %>%
+  mutate(language = if_else(!is.na(`Action Code`),str_sub(`Action Code`,-2),'unknown')) %>%
+  mutate(language = if_else(language %in% c('Y1','RY','ME'),'unknown',language),
+         Notes = '',
+         JMID = as.character(JMID)) %>%
+  #filter(language == 'unknown') %>%
+  arrange(Category_clean,`Clean Campaign Name`) %>%
+  flextable::flextable() %>% 
+  flextable::fontsize(size = 10, part = "body") %>%
+  flextable::autofit() %>%
+  flextable::border_inner() %>%
+  flextable::border_outer() %>%
+  flextable::bold(part = 'header') %>%
+  flextable::bg(bg='goldenrod1',part='header')
+```
