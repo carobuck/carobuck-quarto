@@ -5,20 +5,6 @@ execute:
   freeze: auto 
 ---
 
-----
-
-*purpose of interview: For context, the technical interview will not include a coding element. Instead, it will focus on your technical problem-solving skills and processes. To prepare, please be ready to discuss examples of your work and explain them not just to a stakeholder but to a technical peer.*
-
-top things from JD:
-data management best-practices and well-versed in storytelling with data
-clearly documented + good communication
-of Python or R for data analysis and pipeline development
-
-Use for project technic interview.
-Show sev projects on mini portfolio pg. Give them website if we don't get thru them all/if they wanna come back and look. Ask if they wanna start anywhere bc these projects are mixed bag and highlight diff skills. 
-
-----
-
 :::{.div .portfolio}
 
 ::: {layout="[[-10,32,-10,32,-10],[-1],[32,-2,32,-2,32]]"}
@@ -37,41 +23,43 @@ Show sev projects on mini portfolio pg. Give them website if we don't get thru t
 
 ----
 
-### Quarto for Data Validation & Collaboration
-* Metro qmd for checking data. Word doc bc easier for everyone to comment on. Then could copy/paste code to other qmd to render as clean formatted tables. This wasn't the final output, but was a lot easier to drop these into slides in collaborative fashion, esp with other people who didn't code. Made it easy collab doc with word doc comments. And was easy to replicate all the tables once I got the formatting sorted for one (note, I'm sure there are ways I could've made a custom theme... Could be something to explore in the future if I did something like this again)
-* rendered to html while i was working on it so i could see immediate changes; rendered to docx for final to share w/ team since they didn't code (and a shareable word docx was easier to edit and collaborate across; I could gather all the feedback in one doc, then incorporate back in my data/code)
-* useful to have this QC doc with summary tables; made it really easy to drop tables/summarised data into final report deck b/c I could format the tables exactly how I wanted them with flextable, render to docx, then copy/paste whole table in (I considered rendering to slides directly, but quarto support to slides isn't as good for ppt and it was easier to do docx for formatting purposes. our client decks had some pretty heavy custom creative formatting that was harder to replicate via code - not worth the effort given how many other people touched these. reports weren't at a place to be automated quite yet, despite how much I wanted to automate the whole process b/c hella manual. )
-* TODO: NEED TO MAKE A FAKE VERSION OF THE DATA? OR TRY TO, SO I CAN RENDER TO A WORD DOC/HTML TO SHOW PEOPLE WHAT IT WOULD HAVE LOOKED LIKE. 
-* script to make fake Data -- shows how I think about data/building a dataset. and can wrangle data in R lol
-* [Live Quarto document](https://carobuck.com/qmd-qc-example/q1_qbr_qc.html) and [code repository](https://github.com/carobuck/carobuck-quarto/tree/master/qmd-qc-example)
+### Quarto for Data Validation & collaboration
+- Data wrangling, quality-control, visualization; team collaboration; automation; R; Quarto
+- Quarto document that renders notes, questions, and tables for checking data quality and categorization (client had notoriously unreliable data)
+- Render to Word document for collaborative purposes- easier to share and comment on (especially with people who didn't code);  I could gather all the feedback in one document, then incorporate it back into my data/code
+- Data tables/code repurposed for final report: tables could be replicated and formatted once via code, then copy/pasted to final slides. I considered rendering to slides directly, but Quarto's support to PowerPoint slides isn't as good currently, especially for highly customized slides like we had. Given how many other people touched them, the reports weren't at a place to be fully automated quite yet, despite how much I wanted to automate the whole process because it was very manual.
+- [Live Quarto document](https://carobuck.com/qmd-qc-example/q1_qbr_qc.html)
+- [GitHub repository](https://github.com/carobuck/carobuck-quarto/tree/master/qmd-qc-example) (includes Quarto doc and R script to generate fake data)
 
 ### Manneken Pis: Oddball Data Visualization
-* web dev, asking questions - building prototype vs real thing and what data I collected at beginning to prove concept vs what I'd collect later to build out more of a story. (Once I'd seen prelim data and then would want to dive deeper in a particular direction). 
-* Maybe work on this one to show first vizzes and then some more interesting/well thought out vizzes??? Idk if makes sense to do work to show work. But I need some examples of data viz, not just data work. -- review their job posting again to see what projects best fit the role 
-* this is very much a prototype piece, proof of concept data viz, that allows us to poke at *something* and start to form more intelligent questions of where to dig next (now that we have some data to start with)
-* [GitHub repository](https://github.com/carobuck/manneken-pis/tree/main)
-* [Published Quarto doc](https://mannekenpis.netlify.app/)
+- Data collection, wrangling, and visualization; proof-of-concept prototype vs. real project; web scraping and development
+- Data did not exist; I assembled the original dataset to see what was available before going deeper to refine the visualizations and questions/analysis
+- This is very much a prototype piece, a proof-of-concept data visualization that allows people to poke at *something- and start to form more intelligent questions of where to dig next, what else needs to be collected or cleaned up to build out more of a story
+- [GitHub repository](https://github.com/carobuck/manneken-pis/tree/main)
+- [Published Quarto document](https://mannekenpis.netlify.app/)
 
 ### Data Portraits @ Work
-* Data portraits: creative data viz, how I collect data, how it connects us/helps us understand each other in diff way. I designed survey too. This one was much more creative focused since data aren't that complicated. Trickiest was figuring out how to represent everything in aesthetically pleasing way without running out of colors (tried to limit my palette. Neat to see work like this I did a few yrs ago and what I would do diff /same now). Talk about impact this had on creative team (and my growth as a data person who wasn't just boring numbers and ppl would reach out to me with slightly wackier data ideas just to bounce ideas and see what's possible)
-* [See more about the portraits + legend](https://carobuck.com/posts/cia-portraits.html)
+- Survey design; creative data use; visualization design
+- A hand-drawn view of how I see and collect data around me; how data help us connect and understand each other in different ways
+- Creative and design-focused since the data aren't that complicated. Trickiest aspect was figuring out how to represent everything in aesthetically pleasing way without running out of colors (I tried to limit my palette) 
+- Project was originally shared with data team only, but spread to the broader agency. Sharing with the creative team allowed them to see the data team as more than just number-people (we were creative too!). Also fostered my professional growth as I became someone who people would reach out to with slightly wackier data ideas to see what's possible
+- [See more about the portraits + legend](https://carobuck.com/posts/cia-portraits.html)
 
 ### Bruna Tavares: Colorfeel
-* WT creative tech project - for python/backend/gcp work (can't show as much code but can do as technical a walkthrough as poss. docs, debugging live code, did back and front end to make handling data between the two smoother; debug accessibility bugs (screenreaders!!); debug language issues
-* A tool to help low- and no-vision people select makeup to fit their skin tone, mood, and style
-* Use AI to meticulously craft more compelling color descriptions for makeup shades based on non-visual cues (such as textures, temperatures, flavors, etc.)
-* [Try out Colorfeel](https://www.colorfeel.app/)
+- Python (Flask) backend & deployment (GCP); frontend (accessibility via screenreader, language & data handling); debugging; documentation; creative ideation; AI prompt refinement
+- Note: this was a collaborative project between 6 other people
+- A tool to help low- and no-vision people select makeup to fit their skin tone, mood, and style
+- Use AI to meticulously craft more compelling color descriptions for makeup shades based on non-visual cues (such as textures, temperatures, flavors, etc.)
+- Includes a sighted version of the app, to test how descriptively you can describe a color
+- [Try out Colorfeel](https://www.colorfeel.app/)
 
 ### Seabuck: Logs from my month at sea
-* Seabuck: how I write/communicate and web dev and GitHub 
-* [Logs website](https://seabuck.netlify.app/)
-* [GitHub repository](https://github.com/carobuck/seabuck)
-* Proud of: deploying efficiently while out at sea (smaller img, gh action, google analytics to see where audience is); sci communication; how to tell a story, with a rapt (and varied) audience. humor, science, intelligent AND interesting way to tell a story. also excited b/c now I have a time capsule of a very unique time in my life. of trying something totally new. added more pages while out there (FAQ) 
+- Web development (Quarto, Google Analytics); GitHub; communication 
+- Logs of my month-long adventure at sea: volunteering with a zooplankton group (Décima Lab at UCSD) to collect and pre-process samples
+- Proud of: deploying efficiently while at sea (smaller images, GitHub Action, Google analytics to see where audience is); science communication (how to tell a story with humor, science, and intelligence to a varied audience); a time capsule of a very unique time in my life, of trying something totally new
+- [Logs website](https://seabuck.netlify.app/)
+- [GitHub repository](https://github.com/carobuck/seabuck)
 
 ----
 
 :::
-
-
-
-
